@@ -1,10 +1,10 @@
 # tv
 
 
-- [plex.tv --- ghwin11.cf.christrees 32800](http://test.christrees.com:32800/) cf->32800-> 3.103
-- [plex.tv - bs01ds411.cf.christrees 32700](http://test.christrees.com:32700/) cf->32700-> 3.103
-- [plex.tv ---- docker.cf.christrees 32600](http://test.christrees.com:32600/) cf->32600-> 3.103
-- [plex.tv ---- docker.cf.christrees 32500](http://test.christrees.com:32500/) cf->32500-> 3.103 -> 2.2 -> docker tnasplex
+- [plex.tv --- ghwin11.cf.christrees 32800](http://test.christrees.com:32800/) cf->32800-> 6.103 pf-> 2.99 ghwin11
+- [plex.tv - bs01ds411.cf.christrees 32700](http://test.christrees.com:32700/) cf->32700-> 6.103 pf-> 2.105 bs01ds411
+- [plex.tv ---- docker.cf.christrees 32600](http://test.christrees.com:32600/) cf->32600-> 6.103
+- [plex.tv ---- docker.cf.christrees 32500](http://test.christrees.com:32500/) cf->32500-> 6.103 pf-> 2.2 tnasplex
 - [plex.tv  cattvwin10.cf.christrees 32400](http://test.christrees.com:32400/) cf->32400-> 6.180 cattvwin10
 
 ---
