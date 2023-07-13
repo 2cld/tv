@@ -1,11 +1,20 @@
 # tv
 
+## christrees plex
+- [plex.tv --- ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800-> 6.103 pf-> 2.99 ghwin11
+    - M:/CATMedia/CATMovies
+- [plex.tv - bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700-> 6.103 pf-> 2.105 bs01ds411
+- [plex.tv ---- docker.test.christrees 32600](http://test.christrees.com:32600/) cf->32600-> 6.103
+- [plex.tv ---- docker.test.christrees 32500](http://test.christrees.com:32500/) cf->32500-> 6.103 pf-> 2.2 tnasplex
+- [plex.tv  cattvwin10.test.christrees 32400](http://test.christrees.com:32400/) cf->32400-> 6.180 cattvwin10
 
-- [plex.tv --- ghwin11.cf.christrees 32800](http://test.christrees.com:32800/) cf->32800-> 6.103 pf-> 2.99 ghwin11
-- [plex.tv - bs01ds411.cf.christrees 32700](http://test.christrees.com:32700/) cf->32700-> 6.103 pf-> 2.105 bs01ds411
-- [plex.tv ---- docker.cf.christrees 32600](http://test.christrees.com:32600/) cf->32600-> 6.103
-- [plex.tv ---- docker.cf.christrees 32500](http://test.christrees.com:32500/) cf->32500-> 6.103 pf-> 2.2 tnasplex
-- [plex.tv  cattvwin10.cf.christrees 32400](http://test.christrees.com:32400/) cf->32400-> 6.180 cattvwin10
+## ghadmin plex
+
+## steveedwards808 plex
+- [plex.tv --- gusHPlaptop]()
+  - gus
+## tri484 plex
+
 
 ---
 ---
