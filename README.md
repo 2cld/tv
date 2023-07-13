@@ -1,20 +1,47 @@
+[edit](https://github.com/2cld/tv/edit/main/README.md)
 # tv
 
 ## christrees plex
-- [plex.tv --- ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800-> 6.103 pf-> 2.99 ghwin11
-    - M:/CATMedia/CATMovies
-- [plex.tv - bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700-> 6.103 pf-> 2.105 bs01ds411
-- [plex.tv ---- docker.test.christrees 32600](http://test.christrees.com:32600/) cf->32600-> 6.103
-- [plex.tv ---- docker.test.christrees 32500](http://test.christrees.com:32500/) cf->32500-> 6.103 pf-> 2.2 tnasplex
-- [plex.tv  cattvwin10.test.christrees 32400](http://test.christrees.com:32400/) cf->32400-> 6.180 cattvwin10
+- [plex.tv --- ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.103pf->2.99 ghwin11
 
-## ghadmin plex
+| ghwin11 Lib | Storage location |
+|-------------|------------------|     
+| gusMovies | Z:\gusMovies |
+| gusShows | Z:\gusShows |
+| HorrorClassic100 | Z:\HorrorClassics100 |
+
+- [plex.tv - bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700->6.103pf->2.105 bs01ds411
+
+| bs01ds411 Lib | Storage location |
+|-------------|------------------|     
+| pshareMovies | Z:\gusMovies |
+| pshareDVR | Z:\gusShows |
+
+- [plex.tv ---- docker.test.christrees 32500](http://test.christrees.com:32500/) cf->32500->6.103pf->2.2 tnasplex
+
+| tnasplex Lib | Storage location |
+|-------------|------------------|     
+| catdvr | ? |
+| trinkdvr | ? |
+
+- [plex.tv --- gusHPlex]() sl->32400->?? gusHPlex on gusHPlaptop
+
+| gusHPlex Lib | Storage location |
+|-------------|------------------|     
+| gusMovies | ? |
+| gusShows | ? |
+| HorrorClassic100 | ? |
+| gusRip | ? |
+| gusVCRProject | ? |
+
+## ghadmin plex (none right now)
 
 ## steveedwards808 plex
-- [plex.tv --- gusHPlaptop]()
-  - gus
-## tri484 plex
+- [plex.tv --- slPlex]() - vm on old macmini
 
+## tri484 plex
+- [plex.tv --- tri484]()
+  - 
 
 ---
 ---
@@ -46,3 +73,12 @@
     - [ ] S3-E6 Vampire Creek
     - [ ] S3-E7 Intensive Scare Unit
     - [ ] S3-E8 Stan Against Evie
+
+# Notes
+- [plex.tv --- ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.103pf->2.99 ghwin11
+- [plex.tv - bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700->6.103pf->2.105 bs01ds411 (DVR)
+- [plex.tv ---- docker.test.christrees 32600](http://test.christrees.com:32600/) cf->32600->6.103pf->2.103 (docker)
+- [plex.tv ---- docker.test.christrees 32500](http://test.christrees.com:32500/) cf->32500->6.103pf->2.2 tnasplex (DVR)
+- [plex.tv  cattvwin10.test.christrees 32400](http://test.christrees.com:32400/) cf->32400->6.180 cattvwin10~~ (removed)
+- [plex.tv  gusHPlex 32400]() sl->32400->?? gusHPlex on gusHPlaptop (DVR)
+
