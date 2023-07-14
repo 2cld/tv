@@ -21,6 +21,7 @@
 | tvNew | P:\tvNew | pshare \\192.168.2.105 |
 | tvOld | P:\tvOld | pshare \\192.168.2.105 |
 
+# bs01ds411 plex
 - [plex.tv - bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700->6.103pf->2.105 bs01ds411
   - bs01ds411
   - Synology DS411 NAS
@@ -33,6 +34,7 @@
 | pshareMovies | /volume1/pshare/bs01Movie |
 | pshareDVR | /volume1/pshare/bs01DVR |
 
+# tnasplex plex
 - [plex.tv ---- docker.test.christrees 32500](http://test.christrees.com:32500/) cf->32500->6.103pf->2.2 tnasplex
   - truenas docker app
   - trink DVR currently
@@ -42,6 +44,7 @@
 | catdvr | /media/catdvr |
 | trinkdvr | /media/trinkdvr |
 
+# gusHPlex plex
 - [plex.tv --- gusHPlex]() sl->32400->?? gusHPlex on gusHPlaptop
   - ghHPlaptop in sl
   - gusRips and sl DVR.
