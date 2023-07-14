@@ -3,28 +3,40 @@
 
 ## christrees plex
 - [plex.tv --- ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.103pf->2.99 ghwin11
+ghwin11 is an i5 with Nividia GTX 660 this is the main plex server
 
-| ghwin11 Lib | Storage location |
-|-------------|------------------|     
-| gusMovies | Z:\gusMovies |
-| gusShows | Z:\gusShows |
-| HorrorClassic100 | Z:\HorrorClassics100 |
+| ghwin11 Lib | local mnt | netpath |
+|-------------|------------------|---|
+| gusMovies | P:\gusMovies | pshare \\192.168.2.105 |
+| gusShows | P:\gusShows | pshare \\192.168.2.105 |
+| HorrorClassic100 | P:\HorrorClassics100 | pshare \\192.168.2.105 |
+| bs01DVR | P:\bs01DVR | pshare \\192.168.2.105 |
+| bs01Movie | P:\bs01Movie | pshare \\192.168.2.105 |
+| catNew | P:\catNew | pshare \\192.168.2.105 |
+| catRip | P:\catRip | pshare \\192.168.2.105 |
+| tvANew | P:\tvANew | pshare \\192.168.2.105 |
+| tvAOld | P:\tvAOld | pshare \\192.168.2.105 |
+| tvNew | P:\tvNew | pshare \\192.168.2.105 |
+| tvOld | P:\tvOld | pshare \\192.168.2.105 |
 
 - [plex.tv - bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700->6.103pf->2.105 bs01ds411
+bs01ds411 is a Synology DS411 NAS this is pshare \\192.168.2.105 storage and DVR for cf.  The bs01ds411 should be used as plexDVR only.
 
 | bs01ds411 Lib | Storage location |
 |-------------|------------------|     
-| pshareMovies | Z:\gusMovies |
-| pshareDVR | Z:\gusShows |
+| pshareMovies | /volume1/pshare/bs01Movie |
+| pshareDVR | /volume1/pshare/bs01DVR |
 
 - [plex.tv ---- docker.test.christrees 32500](http://test.christrees.com:32500/) cf->32500->6.103pf->2.2 tnasplex
-
+tnasplex is plex running on truenas docker app.  Mainly used by trink as his DVR currently
+ 
 | tnasplex Lib | Storage location |
 |-------------|------------------|     
-| catdvr | ? |
-| trinkdvr | ? |
+| catdvr | /media/catdvr |
+| trinkdvr | /media/trinkdvr |
 
 - [plex.tv --- gusHPlex]() sl->32400->?? gusHPlex on gusHPlaptop
+ghHPlex is plex running on ghHPlaptop in sl.  Mainly for gusRips and sl DVR.
 
 | gusHPlex Lib | Storage location |
 |-------------|------------------|     
@@ -37,11 +49,14 @@
 ## ghadmin plex (none right now)
 
 ## steveedwards808 plex
+experimental plex running in proxmox on coreduo macmini. only good for sldvr
+
 - [plex.tv --- slPlex]() - vm on old macmini
 
 ## tri484 plex
+Trink local plex in hmb running on truenas
+
 - [plex.tv --- tri484]()
-  - 
 
 ---
 ---
