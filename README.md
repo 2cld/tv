@@ -23,8 +23,7 @@
 
 # bs01ds411 plex
 [plex.tv - bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700->6.103pf->2.105 bs01ds411
-  - bs01ds411
-  - Synology DS411 NAS
+  - bs01ds411 Synology DS411 NAS
   - pshare \\192.168.2.105
   - storage and DVR for cf
   - Used as plexDVR
