@@ -70,7 +70,7 @@ Trink local plex in hmb running on truenas
 
 ---
 ---
-- [pluto.tv - Stan Against Evil](https://pluto.tv/en/live-tv/5e82547b6b3df60007fec2b5) Weeknights 8-10pm CST Slightly off IF
+[pluto.tv - Stan Against Evil](https://pluto.tv/en/live-tv/5e82547b6b3df60007fec2b5) Weeknights 8-10pm CST Slightly off IF
   - [Season 1](https://www.imdb.com/title/tt5722214/episodes?season=1)
     - [ ] S1-E1 Dig Me Up, Dig Me Down
     - [ ] S1-E2 Know, Know, Know Your Goat
