@@ -9,12 +9,13 @@
 
 
 # christrees plex
+<!--
 [plex.tv --- ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.103pf->2.99 ghwin11
   - ghwin11 ghadmin windows 11
   - i5 Intel
   - Nividia GTX 660
   - Primary plex server
-
+-->
 | ghwin11 Lib | local mnt | netpath |
 |-------------|------------------|---|
 | gusMovies | P:\gusMovies | pshare \\192.168.2.105 |
@@ -30,31 +31,19 @@
 | tvOld | P:\tvOld | pshare \\192.168.2.105 |
 
 # bs01ds411 plex
+<!--
 [plex.tv - bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700->6.103pf->2.105 bs01ds411
   - bs01ds411 Synology DS411 NAS
   - pshare \\192.168.2.105
   - storage and DVR for cf
   - Used as plexDVR
-
+-->
 | bs01ds411 Lib | Storage location |
 |-------------|------------------|     
 | pshareMovies | /volume1/pshare/bs01Movie |
 | pshareDVR | /volume1/pshare/bs01DVR |
 
-# tnasplex plex
-[plex.tv ---- docker.test.christrees 32500](http://test.christrees.com:32500/) cf->32500->6.103pf->2.2 tnasplex
-  - truenas docker app
-  - trink DVR currently
- 
-| tnasplex Lib | Storage location |
-|-------------|------------------|     
-| catdvr | /media/catdvr |
-| trinkdvr | /media/trinkdvr |
-
 # gusHPlex plex
-[plex.tv --- gusHPlex]() sl->32400->?? gusHPlex on gusHPlaptop
-  - ghHPlaptop in sl
-  - gusRips and sl DVR.
 
 | gusHPlex Lib | Storage location |
 |-------------|------------------|     
@@ -64,15 +53,13 @@
 | gusMusic | ? |
 | gusVHSProject | ? |
 | gusDVR | ? |
-| gusStoogies | ? |
-| gusCartoons | ? |
+| gusDVRStoogies | ? |
+| gusDVRCartoons | ? |
 
 # ghadmin plex (none right now)
 
 # steveedwards808 plex
 experimental plex running in proxmox on coreduo macmini. only good for sldvr
-
-[plex.tv --- slPlex]() - vm on old macmini
 
 ## tri484 plex
 Trink local plex in hmb running on truenas
