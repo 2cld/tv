@@ -1,5 +1,13 @@
 [edit](https://github.com/2cld/tv/edit/main/README.md)
 
+| plex server name | owner | purpose | status |
+|---|---|---|---|
+| [ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.103pf->2.99 ghwin11 | christrees | main for remote view | live in sl |
+| [bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700->6.103pf->2.105 bs01ds411 | christrees | cf dvr | live in wf |
+| [tnas.christrees 32500](http://test.christrees.com:32500/) cf->32500->6.103pf->2.2 tnasplex | christrees | trink cf dvr | live in cf |
+| [gusHPlex]() sl->32400->?? gusHPlex on gusHPlaptop | christrees | sl local | live in sl |
+
+
 # christrees plex
 [plex.tv --- ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.103pf->2.99 ghwin11
   - ghwin11 ghadmin windows 11
