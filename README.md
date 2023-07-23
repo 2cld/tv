@@ -19,9 +19,6 @@
 
 | ghwin11 Lib | local mnt | netpath |
 |-------------|------------------|---|
-| gusMovies | P:\gusMovies | pshare \\192.168.2.105 |
-| gusShows | P:\gusShows | pshare \\192.168.2.105 |
-| HorrorClassic100 | P:\HorrorClassics100 | pshare \\192.168.2.105 |
 | bs01DVR | P:\bs01DVR | pshare \\192.168.2.105 |
 | bs01Movie | P:\bs01Movie | pshare \\192.168.2.105 |
 | catNew | P:\catNew | pshare \\192.168.2.105 |
@@ -49,14 +46,14 @@
 
 | gusHPlex Lib | Storage location |
 |-------------|------------------|     
-| gusMovies | ? |
-| gusShows | ? |
-| gusHorrorClassic100 | ? |
-| gusMusic | ? |
-| gusVHSProject | ? |
-| gusDVR | ? |
-| gusDVRStoogies | ? |
-| gusDVRCartoons | ? |
+| gusMovies | gusHPLaptop E:\gusHPlexSFEPart\gusMovies |
+| gusShows | gusHPLaptop E:\gusHPlexSFEPart\gusShows |
+| gusHorrorClassic100 | gusHPLaptop E:\gusHPlexSFEPart\gusHorrorClassic100 |
+| gusMusic | gusHPLaptop E:\gusHPlexSFEPart\gusMusic |
+| gusVHSProject | gusHPLaptop E:\gusHPlexSFEPart\gusVHSProject |
+| gusDVR | gusHPLaptop E:\gusHPlexSFEPart\gusDVR |
+| gusDVRStoogies | gusHPLaptop E:\gusHPlexSFEPart\gusDVRStoogies |
+| gusDVRCartoons | gusHPLaptop E:\gusHPlexSFEPart\gusDVRCartoons |
 
 # ghadmin plex (none right now)
 
