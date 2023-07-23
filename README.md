@@ -61,8 +61,11 @@
 | gusMovies | ? |
 | gusShows | ? |
 | HorrorClassic100 | ? |
-| gusRip | ? |
-| gusVCRProject | ? |
+| gusMusic | ? |
+| gusVHSProject | ? |
+| gusDVR | ? |
+| gusStoogies | ? |
+| gusCartoons | ? |
 
 # ghadmin plex (none right now)
 
