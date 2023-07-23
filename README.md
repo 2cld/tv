@@ -16,6 +16,7 @@
   - Nividia GTX 660
   - Primary plex server
 -->
+
 | ghwin11 Lib | local mnt | netpath |
 |-------------|------------------|---|
 | gusMovies | P:\gusMovies | pshare \\192.168.2.105 |
@@ -38,6 +39,7 @@
   - storage and DVR for cf
   - Used as plexDVR
 -->
+
 | bs01ds411 Lib | Storage location |
 |-------------|------------------|     
 | pshareMovies | /volume1/pshare/bs01Movie |
@@ -49,7 +51,7 @@
 |-------------|------------------|     
 | gusMovies | ? |
 | gusShows | ? |
-| HorrorClassic100 | ? |
+| gusHorrorClassic100 | ? |
 | gusMusic | ? |
 | gusVHSProject | ? |
 | gusDVR | ? |
