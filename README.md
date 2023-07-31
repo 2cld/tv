@@ -105,5 +105,7 @@ Trink local plex in hmb running on truenas
 - [plex.tv  gusHPlex 32400]() sl->32400->?? gusHPlex on gusHPlaptop (DVR)
 
 ## Test
-[Young Sheldon](https://www.paramountplus.com/shows/video/KqG3_6fFfvcsMYkSXPvK58lCFtnykHxu/)
+- [Young Sheldon](https://www.paramountplus.com/shows/video/KqG3_6fFfvcsMYkSXPvK58lCFtnykHxu/)
+- [Wikipedia HDMI](https://en.wikipedia.org/wiki/High-bandwidth_Digital_Content_Protection)
+- [hdfury](https://hdfury.com/shop/)
 
