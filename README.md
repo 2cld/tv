@@ -104,3 +104,6 @@ Trink local plex in hmb running on truenas
 - [plex.tv  cattvwin10.test.christrees 32400](http://test.christrees.com:32400/) cf->32400->6.180 cattvwin10~~ (removed)
 - [plex.tv  gusHPlex 32400]() sl->32400->?? gusHPlex on gusHPlaptop (DVR)
 
+## Test
+[Young Sheldon](https://www.paramountplus.com/shows/video/KqG3_6fFfvcsMYkSXPvK58lCFtnykHxu/)
+
