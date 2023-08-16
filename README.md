@@ -1,12 +1,17 @@
 [edit](https://github.com/2cld/tv/edit/main/README.md)
 
+- test gusPlex playback
+- test HD playback on other plex
+- test what gusPlex can deal with resolution wise...
+- document plex server settings
+- document plex client settings
+
 | plex server name | owner | purpose | status |
 |---|---|---|---|
 | [ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.103pf->2.99 ghwin11 | christrees | main for remote view | live in sl |
 | [bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700->6.103pf->2.105 bs01ds411 | christrees | cf dvr | live in wf |
 | [tnas.christrees 32500](http://test.christrees.com:32500/) cf->32500->6.103pf->2.2 tnasplex | christrees | trink cf dvr | live in cf |
 | [gusHPlex]() sl->32400->?? gusHPlex on gusHPlaptop | christrees | sl local | live in sl |
-
 
 # christrees plex
 <!--
@@ -95,6 +100,12 @@ Trink local plex in hmb running on truenas
     - [ ] S3-E6 Vampire Creek
     - [ ] S3-E7 Intensive Scare Unit
     - [ ] S3-E8 Stan Against Evie
+
+---
+[What we do in the Shadows](https://www.imdb.com/title/tt7908628/episodes/?ref_=tt_ov_epl) 
+  - [Season 1](https://www.imdb.com/title/tt7908628/episodes?season=1)
+    - [ ] S1-E1 
+    - [ ] S1-E2 
 
 # Notes
 - [plex.tv --- ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.103pf->2.99 ghwin11
