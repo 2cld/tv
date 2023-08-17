@@ -18,10 +18,10 @@
 | [gusHPlex]() | christrees | sl local | live in sl | sl->32400->?? gusHPlex on gusHPlaptop |
 | [test 2020](http://test.christrees.com:2020/) | christrees | cf sg ssh | notup in cf | cf->2020->6.2:21 sg |
 
-# christrees plex
+# cfPlex
 <!--
-[plex.tv --- ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.103pf->2.99 ghwin11
-  - ghwin11 ghadmin windows 11
+[plex.tv --- ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.3 cfPlex
+  - cfPlex ghadmin windows 11
   - i5 Intel
   - Nividia GTX 660
   - Primary plex server
