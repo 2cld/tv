@@ -6,6 +6,7 @@
 - document plex server settings
 - document plex client settings
 
+## Plex client
 - Login to [app.plex.tv](https://app.plex.tv/desktop/#!/) and client link [plex.tv/link](https://www.plex.tv/link/)
 - use cfDVR for recordings
 - use cfPlex for viewing and LiveTV
@@ -37,7 +38,7 @@
 | catTVShows | M:\CATTVShows | MediaShare \\192.168.6.2\CATTVShows |
 | pMediaTVShows | M:\pMediaTVShows | MediaShare \\192.168.6.2\pMediaTVShows |
 | pMediaTVShowsAnimated | M:\pMediaTVShowsAnimated | MediaShare \\192.168.6.2\pMediaTVShowsAnimated |
-| StarTrek | O:\plexdvr\startrekDVR | ?? \\192.168.6.\startrekDVR |
+| StarTrek | O:\plexdvr\startrekDVR | plexnsds \\192.168.6.10\plexdvr\startrekDVR |
 
 # cfDVR plex
 <!--
