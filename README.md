@@ -83,11 +83,12 @@ Trink local plex in hmb running on truenas
 ## Remote user management
 ssh shell access for user data management
 - [christrees.com/dns](https://domains.google.com/registrar/christrees.com/dns)
-- test.christrees.com -> 24.149.22.11:2020 -> 192.168.6.2:21
+- cfPlex test.christrees.com -> 24.149.22.11:2020 -> 192.168.6.2:21
+- cfDVR test.christrees.com -> 24.149.22.11:2021 -> 192.168.6.6:2020
 - [port forward](http://192.168.6.1/#/html/advanced/security/advanced_security_advancedportforwarding.html)
-- ssh -p 2021 trink@test.christrees.com
+- cfDVR ssh -p 2021 trink@test.christrees.com
 - trink@cfDVR:~$ ls /volume1/pshare/trinkDVR/
-- ssh -p 2020 trink@test.christrees.com
+- sg-cfPlex ssh -p 2020 trink@test.christrees.com
 - trink@cf-sg2:~$ ls /mnt/catpool/trink/trinkDVR/
 
 ---
