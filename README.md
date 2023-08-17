@@ -6,11 +6,15 @@
 - document plex server settings
 - document plex client settings
 
-| plex server name | owner | purpose | status |
+- Login to [app.plex.tv](https://app.plex.tv/desktop/#!/) and client link [plex.tv/link](https://www.plex.tv/link/)
+- use cfDVR for recordings
+- use cfPlex for viewing and LiveTV
+
+| [plex.tv](https://app.plex.tv/desktop/#!/) server name | owner | purpose | status |
 |---|---|---|---|
-| [ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.103pf->2.99 ghwin11 | christrees | main for remote view | live in sl |
-| [bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700->6.103pf->2.105 bs01ds411 | christrees | cf dvr | live in wf |
-| [tnas.christrees 32500](http://test.christrees.com:32500/) cf->32500->6.103pf->2.2 tnasplex | christrees | trink cf dvr | live in cf |
+| [cfDVR.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.6 cfDVR | christrees | plex on bu Synology ds411| live in cf |
+| [cfPlex.test.christrees 32400](http://test.christrees.com:32400/) cf->32400->6.3 cfPlex | christrees | plex on cfPlex win11 i5 | live in cf |
+| [test.christrees 2020](http://test.christrees.com:2020/) cf->2020->6.2:21 sg | christrees | cf sg ssh | notup in cf |
 | [gusHPlex]() sl->32400->?? gusHPlex on gusHPlaptop | christrees | sl local | live in sl |
 
 # christrees plex
@@ -22,18 +26,20 @@
   - Primary plex server
 -->
 
-| ghwin11 Lib | local mnt | netpath |
+| cfPlex Lib | local mnt | netpath |
 |-------------|------------------|---|
-| bs01DVR | P:\bs01DVR | pshare \\192.168.2.105 |
-| bs01Movie | P:\bs01Movie | pshare \\192.168.2.105 |
-| catNew | P:\catNew | pshare \\192.168.2.105 |
-| catRip | P:\catRip | pshare \\192.168.2.105 |
-| tvANew | P:\tvANew | pshare \\192.168.2.105 |
-| tvAOld | P:\tvAOld | pshare \\192.168.2.105 |
-| tvNew | P:\tvNew | pshare \\192.168.2.105 |
-| tvOld | P:\tvOld | pshare \\192.168.2.105 |
+| catMovies | M:\CATMovies | MediaShare \\192.168.6.2\CATMovies |
+| catNewMovies | P:\catNew | pshare \\192.168.6\catNew |
+| pMediaMovie | M:\pMediaMovie | MediaShare \\192.168.6.2\pMediaMovie |
+| pMediaMoviesAnimated | M:\pMediaMoviesAnimated | MediaShare \\192.168.6.2\pMediaMoviesAnimated |
+| pMediaShortsAnimated | M:\pMediaShortsAnimated | MediaShare \\192.168.6.2\pMediaShortsAnimated |
+| catScratch | C:\plexData | none |
+| catTVShows | M:\CATTVShows | MediaShare \\192.168.6.2\CATTVShows |
+| pMediaTVShows | M:\pMediaTVShows | MediaShare \\192.168.6.2\pMediaTVShows |
+| pMediaTVShowsAnimated | M:\pMediaTVShowsAnimated | MediaShare \\192.168.6.2\pMediaTVShowsAnimated |
+| StarTrek | O:\plexdvr\startrekDVR | ?? \\192.168.6.\startrekDVR |
 
-# bs01ds411 plex
+# cfDVR plex
 <!--
 [plex.tv - bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700->6.103pf->2.105 bs01ds411
   - bs01ds411 Synology DS411 NAS
@@ -42,7 +48,7 @@
   - Used as plexDVR
 -->
 
-| bs01ds411 Lib | Storage location |
+| cfDVR Lib | Storage location |
 |-------------|------------------|     
 | pshareMovies | /volume1/pshare/bs01Movie |
 | pshareDVR | /volume1/pshare/bs01DVR |
