@@ -12,7 +12,7 @@
 - use cfPlex for viewing and LiveTV
 
 | [plex.tv](https://app.plex.tv/desktop/#!/) server name | owner | purpose | status | route |
-|---|---|---|---|
+|---|---|---|---|--|
 | [cfPlex](http://test.christrees.com:32400/) | christrees | plex on cfPlex win11 i5 | live in cf | cf->32400->6.3 cfPlex |
 | [cfDVR](http://test.christrees.com:32500/) | christrees | plex on bu Synology ds411| live in cf | cf->32500->6.6 cfDVR |
 | [gusHPlex]() | christrees | sl local | live in sl | sl->32400->?? gusHPlex on gusHPlaptop |
