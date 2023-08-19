@@ -1,19 +1,20 @@
 [edit](https://github.com/2cld/tv/edit/main/README.md)
 
+| [plex.tv](https://app.plex.tv/desktop/#!/) server name | owner | purpose | status | route |
+|---|---|---|---|--|
+| [cfPlex](http://test.christrees.com:32400/) | christrees | plex on cfPlex win11 i5 | live in cf | cf->32400->6.3 [doc cfPlex](#cfPlex) |
+| [cfDVR](http://test.christrees.com:32500/) | christrees | plex on bu Synology ds411| live in cf | cf->32500->6.6 [doc cfDVR](#cfDVR) |
+| [gusHPlex]() | christrees | sl local | live in sl | sl->32400->?? [doc gusHPlex](#gusHPlex) on gusHPlaptop |
+| [test 2020](http://test.christrees.com:2020/) | christrees | cf sg-cfPlex ssh | live in cf | cf->2020->6.2:21 sg cfPlex-trinkDVR |
+| [test 2021](http://test.christrees.com:2021/) | christrees | cf sg-cfDVR  ssh | live in cf | cf->2020->6.6:2020 cfDVR-trinDVR |
+
+# Plex Document links
 - Plex playback [setup and testing](#plex-playback)
 - Plex dvr [setup and testing](#plex-dvr)
 - Plex library [setup and updates](#plex-library)
 - Plex [server settings](#plex-server)
 - Plex [client settings](#plex-client)
 - Plex [remote ssh](#remote-ssh-management)
-
-| [plex.tv](https://app.plex.tv/desktop/#!/) server name | owner | purpose | status | route |
-|---|---|---|---|--|
-| [cfPlex](http://test.christrees.com:32400/) | christrees | plex on cfPlex win11 i5 | live in cf | cf->32400->6.3 cfPlex |
-| [cfDVR](http://test.christrees.com:32500/) | christrees | plex on bu Synology ds411| live in cf | cf->32500->6.6 cfDVR |
-| [gusHPlex]() | christrees | sl local | live in sl | sl->32400->?? gusHPlex on gusHPlaptop |
-| [test 2020](http://test.christrees.com:2020/) | christrees | cf sg-cfPlex ssh | live in cf | cf->2020->6.2:21 sg cfPlex-trinkDVR |
-| [test 2021](http://test.christrees.com:2021/) | christrees | cf sg-cfDVR  ssh | live in cf | cf->2020->6.6:2020 cfDVR-trinDVR |
 
 # cfPlex
 <!--
@@ -53,7 +54,7 @@
 | pshareMovies | /volume1/pshare/bs01Movie |
 | pshareDVR | /volume1/pshare/bs01DVR |
 
-# gusHPlex plex
+# gusHPlex
 
 | gusHPlex Lib | Storage location |
 |-------------|------------------|     
@@ -68,10 +69,10 @@
 
 # ghadmin plex (none right now)
 
-# steveedwards808 plex
+# steveedwards808
 experimental plex running in proxmox on coreduo macmini. only good for sldvr
 
-## tri484 plex
+# tri484
 Trink local plex in hmb running on truenas
 
 [plex.tv --- tri484]()
