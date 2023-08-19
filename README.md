@@ -11,7 +11,7 @@
 # Plex Document links
 - Plex playback [setup and testing](#plex-playback)
 - Plex dvr [setup and testing](#plex-dvr)
-- Plex library [setup and updates](#plex-library)
+- Plex library [setup and updates](#plex-library) and [shared media library](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=0)
 - Plex [server settings](#plex-server)
 - Plex [client settings](#plex-client)
 - Plex [remote ssh](#remote-ssh-management)
@@ -95,6 +95,7 @@ Setup and testing
 - click on existing tuner channels "xx enabled" to access channel mapping function
 
 ## Plex library
+- Update [shared media library](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=0) as you modify plex libs
 - Login to [app.plex.tv](https://app.plex.tv/desktop/#!/) 
 - goto wrench icon in upper right
 - on left, select the server you want to manage
