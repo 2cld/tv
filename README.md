@@ -1,15 +1,11 @@
 [edit](https://github.com/2cld/tv/edit/main/README.md)
 
-- test gusPlex playback
-- test HD playback on other plex
-- test what gusPlex can deal with resolution wise...
-- document plex server settings
-- document plex client settings
-
-## Plex client
-- Login to [app.plex.tv](https://app.plex.tv/desktop/#!/) and client link [plex.tv/link](https://www.plex.tv/link/)
-- use cfDVR for recordings
-- use cfPlex for viewing and LiveTV
+- Plex playback [setup and testing](#plex-playback)
+- Plex dvr [setup and testing](#plex-dvr)
+- Plex library [setup and updates](#plex-library)
+- Plex [server settings](#plex-server)
+- Plex [client settings](#plex-client)
+- Plex [remote ssh](#remote-ssh-management)
 
 | [plex.tv](https://app.plex.tv/desktop/#!/) server name | owner | purpose | status | route |
 |---|---|---|---|--|
@@ -80,7 +76,24 @@ Trink local plex in hmb running on truenas
 
 [plex.tv --- tri484]()
 
-## Remote user management
+## Plex playback 
+- tbd
+  
+## Plex dvr
+- tbd
+
+## Plex library
+- tbd
+
+## Plex client
+- Login to [app.plex.tv](https://app.plex.tv/desktop/#!/) and client link [plex.tv/link](https://www.plex.tv/link/)
+- use cfDVR for recordings
+- use cfPlex for viewing and LiveTV
+
+## Plex server
+
+
+## Remote ssh management
 ssh shell access for user data management
 - [christrees.com/dns](https://domains.google.com/registrar/christrees.com/dns)
 - cfPlex test.christrees.com -> 24.149.22.11:2020 -> 192.168.6.2:21
