@@ -74,25 +74,45 @@ experimental plex running in proxmox on coreduo macmini. only good for sldvr
 
 # tri484
 Trink local plex in hmb running on truenas
+- [plex.tv --- tri484]()
 
-[plex.tv --- tri484]()
+## Plex playback
+Setup and testing 
 
-## Plex playback 
-- tbd
-  
+| Plex server | notes |
+|--------|------|
+| gusHPlex | mainly for sl-DVR |
+| cfPlex | has cpu and gpu |
+| cfDVR | ds411 for cf-DVR and storage |
+
+
 ## Plex dvr
-- tbd
+- Login to [app.plex.tv](https://app.plex.tv/desktop/#!/) 
+- goto wrench icon in upper right
+- on left, select the server you want to manage
+- select "Manage" -  "Live TV & DVR" near bottom of list
+- add new tuners
+- click on existing tuner channels "xx enabled" to access channel mapping function
 
 ## Plex library
-- tbd
+- Login to [app.plex.tv](https://app.plex.tv/desktop/#!/) 
+- goto wrench icon in upper right
+- on left, select the server you want to manage
+- select "Manage" -  "Library" near bottom of list
+- add, delete or edit the library
+- edit will allow you to add additional directories local to that plex server
 
 ## Plex client
 - Login to [app.plex.tv](https://app.plex.tv/desktop/#!/) and client link [plex.tv/link](https://www.plex.tv/link/)
 - use cfDVR for recordings
 - use cfPlex for viewing and LiveTV
+- Verify client settings location varies on each client
+  - Quality MAX
+  - Play at original quality
+  - may want to mess with beta stuff as they are adjusting for various player updates
 
 ## Plex server
-
+- see [https://github.com/2cld/netstack/tree/master/docs/portals/plex](https://github.com/2cld/netstack/tree/master/docs/portals/plex)
 
 ## Remote ssh management
 ssh shell access for user data management
@@ -141,14 +161,6 @@ ssh shell access for user data management
   - [Season 1](https://www.imdb.com/title/tt7908628/episodes?season=1)
     - [ ] S1-E1 
     - [ ] S1-E2 
-
-# Notes
-- [plex.tv --- ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.103pf->2.99 ghwin11
-- [plex.tv - bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700->6.103pf->2.105 bs01ds411 (DVR)
-- [plex.tv ---- docker.test.christrees 32600](http://test.christrees.com:32600/) cf->32600->6.103pf->2.103 (docker)
-- [plex.tv ---- docker.test.christrees 32500](http://test.christrees.com:32500/) cf->32500->6.103pf->2.2 tnasplex (DVR)
-- [plex.tv  cattvwin10.test.christrees 32400](http://test.christrees.com:32400/) cf->32400->6.180 cattvwin10~~ (removed)
-- [plex.tv  gusHPlex 32400]() sl->32400->?? gusHPlex on gusHPlaptop (DVR)
 
 ## Test
 - [Cedar Falls Library Login](https://wcfpl.ent.sirsi.net/client/en_US/cfpl/?)
