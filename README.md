@@ -4,9 +4,10 @@
 |---|---|---|---|--|
 | [cfPlex](http://test.christrees.com:32400/) | christrees | plex on cfPlex win11 i5 | live in cf | cf->32400->6.3 [doc cfPlex](#cfPlex) |
 | [cfDVR](http://test.christrees.com:32500/) | christrees | plex on bu Synology ds411| live in cf | cf->32500->6.6 [doc cfDVR](#cfDVR) |
-| [gusHPlex]() | christrees | sl local | live in sl | sl->32400->?? [doc gusHPlex](#gusHPlex) on gusHPlaptop |
+| [gusHPlex](http://24.216.208.251:32400) | christrees | sl local | live in sl | sl->32400->?? [doc gusHPlex](#gusHPlex) on gusHPlaptop |
 | [test 2020](http://test.christrees.com:2020/) | christrees | cf sg-cfPlex ssh | live in cf | cf->2020->6.2:21 sg cfPlex-trinkDVR |
 | [test 2021](http://test.christrees.com:2021/) | christrees | cf sg-cfDVR  ssh | live in cf | cf->2020->6.6:2020 cfDVR-trinDVR |
+| [https://moviesanywhere.com/login](https://moviesanywhere.com/login) | christrees | cloud | live | cloud |
 
 # Plex Document links
 - Plex playback [setup and testing](#plex-playback)
