@@ -7,7 +7,8 @@
 | [gusHPlex](http://24.216.208.251:32400) | christrees | sl local | live in sl | sl->32400->?? [doc gusHPlex](#gusHPlex) on gusHPlaptop |
 | [test 2020](http://test.christrees.com:2020/) | christrees | cf sg-cfPlex ssh | live in cf | cf->2020->6.2:21 sg cfPlex-trinkDVR |
 | [test 2021](http://test.christrees.com:2021/) | christrees | cf sg-cfDVR  ssh | live in cf | cf->2020->6.6:2020 cfDVR-trinDVR |
-| [moviesanywhere](https://moviesanywhere.com/login) | christrees | cloud | live | cloud |
+| [moviesanywhere my movies](https://moviesanywhere.com/login) | christrees | cloud | live | cloud |
+| [youtube my movies](https://www.youtube.com/feed/storefront?bp=EgCSAQMIyQSiBQIoBA%3D%3D)  | christrees | cloud | live | cloud |
 
 # Plex Document links
 - Plex playback [setup and testing](#plex-playback)
