@@ -20,8 +20,10 @@
 -
 # DVD to Plex
 - [MakeMKV Key](https://forum.makemkv.com/forum/viewtopic.php?t=1053)
-  - 
+  - Go to MakeMKV application
+  - Help -> Registration -> Paste Key
 - [MakeMKV download](https://www.makemkv.com/download/)
+
 # cfPlex
 <!--
 [plex.tv --- ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.3 cfPlex
