@@ -1,5 +1,12 @@
 [edit](https://github.com/2cld/tv/edit/main/README.md)
 
+# Work In Progress
+- Archieve personal media list
+  - TV Shows
+  - Movies
+- Backup and online personal media list
+- Direct web streaming test
+
 | [plex.tv](https://app.plex.tv/desktop/#!/) server name | owner | purpose | status | route |
 |---|---|---|---|--|
 | [cfPlex](http://test.christrees.com:32400/) | christrees | plex on cfPlex win11 i5 | live in cf | cf->32400->6.3 [doc cfPlex](#cfPlex) |
