@@ -181,6 +181,15 @@ ssh shell access for user data management
 ## Test
 - [Cedar Falls Library Login](https://wcfpl.ent.sirsi.net/client/en_US/cfpl/?)
 - [Young Sheldon](https://www.paramountplus.com/shows/video/KqG3_6fFfvcsMYkSXPvK58lCFtnykHxu/)
+
+## Equipment Setup
 - [Wikipedia HDMI](https://en.wikipedia.org/wiki/High-bandwidth_Digital_Content_Protection)
 - [hdfury](https://hdfury.com/shop/)
-
+- [HDMI Splitters - youtube](https://www.youtube.com/watch?v=TkMIET3eEcc)
+  - [Top pick $90](https://www.amazon.com/dp/B079HN327D)
+  - [2nd $78](https://www.amazon.com/dp/B08KZTWQPT)
+  - [3rd $35](https://www.amazon.com/dp/B0891WY8SF)
+  - [4th $15](https://www.amazon.com/dp/B078Z5KPBL)
+- [tbd]()
+- [tbd]()
+- [tbd]()
