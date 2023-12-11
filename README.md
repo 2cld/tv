@@ -7,38 +7,18 @@
 - Backup and online personal media list
 - Direct web streaming test
 
-| [plex.tv](https://app.plex.tv/desktop/#!/) server name | owner | purpose | status | route |
+| [plex.tv](https://app.plex.tv/desktop/#!/) service name | owner | purpose | status | route |
 |---|---|---|---|--|
-| [cfPlex](http://test.christrees.com:32400/) | christrees | plex on cfPlex win11 i5 | live in cf | cf->32400->6.3 [doc cfPlex](#cfPlex) |
-| [cfDVR](http://test.christrees.com:32500/) | christrees | plex on bu Synology ds411| live in cf | cf->32500->6.6 [doc cfDVR](#cfDVR) |
-| [gusHPlex](http://24.216.208.251:32400) | christrees | sl local | live in sl | sl->32400->?? [doc gusHPlex](#gusHPlex) on gusHPlaptop |
+| [cfPlex](http://test.christrees.com:32400/) | christrees | plex on cfPlex win11 i5 | live in cf | cf->32400->6.3 [doc cfPlex](https://netstack.org/docs/portals/plex#cfPlex) |
+| [cfDVR](http://test.christrees.com:32500/) | christrees | plex on bu Synology ds411| live in cf | cf->32500->6.6 [doc cfDVR]((https://netstack.org/docs/portals/plex#cfDVR) |
+| [gusHPlex](http://24.216.208.251:32400) remove | christrees | sl local | live in sl | sl->32400->?? [doc gusHPlex](#gusHPlex) on gusHPlaptop |
+| [slPlex](http://24.216.208.251:32400) todo | christrees | sl local | live in sl via cf | sl->32400->?? [doc slPlex](#slPlex) on ?? |
 | [test 2020](http://test.christrees.com:2020/) | christrees | cf sg-cfPlex ssh | live in cf | cf->2020->6.2:21 sg cfPlex-trinkDVR |
 | [test 2021](http://test.christrees.com:2021/) | christrees | cf sg-cfDVR  ssh | live in cf | cf->2020->6.6:2020 cfDVR-trinDVR |
 | [moviesanywhere my movies](https://moviesanywhere.com/login) | christrees | cloud | live | cloud |
 | [youtube my movies](https://www.youtube.com/feed/storefront?bp=EgCSAQMIyQSiBQIoBA%3D%3D)  | christrees | cloud | live | cloud |
 
-# Plex Document links
-- Plex playback [setup and testing](#plex-playback)
-- Plex dvr [setup and testing](#plex-dvr)
-- Plex library [setup and updates](#plex-library) and [shared media library](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=0)
-- Plex [server settings](#plex-server)
-- Plex [client settings](#plex-client)
-- Plex [remote ssh](#remote-ssh-management)
--
-# DVD to Plex
-- [MakeMKV Key](https://forum.makemkv.com/forum/viewtopic.php?t=1053)
-  - Go to MakeMKV application
-  - Help -> Registration -> Paste Key
-- [MakeMKV download](https://www.makemkv.com/download/)
 
-# cfPlex
-<!--
-[plex.tv --- ghwin11.test.christrees 32800](http://test.christrees.com:32800/) cf->32800->6.3 cfPlex
-  - cfPlex ghadmin windows 11
-  - i5 Intel
-  - Nividia GTX 660
-  - Primary plex server
--->
 
 | cfPlex Lib | local mnt | netpath |
 |-------------|------------------|---|
@@ -55,21 +35,13 @@
 | gusTestRemote | G:\gusDVRStoogies |  gusHPlexSFEPart \\10.147.17.66\gusDVRStoogies |
 | gusTestLocal | C:\plexData\The Three Stooges (1934) | none |
 
-# cfDVR plex
-<!--
-[plex.tv - bs01ds411.test.christrees 32700](http://test.christrees.com:32700/) cf->32700->6.103pf->2.105 bs01ds411
-  - bs01ds411 Synology DS411 NAS
-  - pshare \\192.168.2.105
-  - storage and DVR for cf
-  - Used as plexDVR
--->
 
 | cfDVR Lib | Storage location |
 |-------------|------------------|     
 | pshareMovies | /volume1/pshare/bs01Movie |
 | pshareDVR | /volume1/pshare/bs01DVR |
 
-# gusHPlex
+# gusHPlex - REMOVE with gus
 
 | gusHPlex Lib | Storage location |
 |-------------|------------------|     
@@ -82,67 +54,9 @@
 | gusDVRStoogies | gusHPLaptop E:\gusHPlexSFEPart\gusDVRStoogies |
 | gusDVRCartoons | gusHPLaptop E:\gusHPlexSFEPart\gusDVRCartoons |
 
-# ghadmin plex (none right now)
-
-# steveedwards808
-experimental plex running in proxmox on coreduo macmini. only good for sldvr
-
-# tri484
-Trink local plex in hmb running on truenas
-- [plex.tv --- tri484]()
-
-## Plex playback
-Setup and testing 
-
-| Plex server | notes |
-|--------|------|
-| gusHPlex | mainly for sl-DVR |
-| cfPlex | has cpu and gpu |
-| cfDVR | ds411 for cf-DVR and storage |
 
 
-## Plex dvr
-- Login to [app.plex.tv](https://app.plex.tv/desktop/#!/) 
-- goto wrench icon in upper right
-- on left, select the server you want to manage
-- select "Manage" -  "Live TV & DVR" near bottom of list
-- add new tuners
-- click on existing tuner channels "xx enabled" to access channel mapping function
 
-## Plex library
-- Update [shared media library](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=0) as you modify plex libs
-- Login to [app.plex.tv](https://app.plex.tv/desktop/#!/) 
-- goto wrench icon in upper right
-- on left, select the server you want to manage
-- select "Manage" -  "Library" near bottom of list
-- add, delete or edit the library
-- edit will allow you to add additional directories local to that plex server
-
-## Plex client
-- Login to [app.plex.tv](https://app.plex.tv/desktop/#!/) and client link [plex.tv/link](https://www.plex.tv/link/)
-- use cfDVR for recordings
-- use cfPlex for viewing and LiveTV
-- Verify client settings location varies on each client
-  - Quality MAX
-  - Play at original quality
-  - may want to mess with beta stuff as they are adjusting for various player updates
-
-## Plex server
-- see [https://github.com/2cld/netstack/tree/master/docs/portals/plex](https://github.com/2cld/netstack/tree/master/docs/portals/plex)
-
-## Remote ssh management
-ssh shell access for user data management
-- [christrees.com/dns](https://domains.google.com/registrar/christrees.com/dns)
-- cfPlex test.christrees.com -> 24.149.22.11:2020 -> 192.168.6.2:21
-- cfDVR test.christrees.com -> 24.149.22.11:2021 -> 192.168.6.6:2020
-- [port forward](http://192.168.6.1/#/html/advanced/security/advanced_security_advancedportforwarding.html)
-- cfDVR ssh -p 2021 trink@test.christrees.com
-- trink@cfDVR:~$ ls /volume1/pshare/trinkDVR/
-- sg-cfPlex ssh -p 2020 trink@test.christrees.com
-- trink@cf-sg2:~$ ls /mnt/catpool/trink/trinkDVR/
-
----
----
 [pluto.tv - Stan Against Evil](https://pluto.tv/en/live-tv/5e82547b6b3df60007fec2b5) Weeknights 8-10pm CST Slightly off IF
   - [Season 1](https://www.imdb.com/title/tt5722214/episodes?season=1)
     - [ ] S1-E1 Dig Me Up, Dig Me Down
