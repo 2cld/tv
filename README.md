@@ -1,7 +1,16 @@
 [edit](https://github.com/2cld/tv/edit/main/README.md)
 
+## tv.2cld Media Guides
 
-| [plex.tv](https://app.plex.tv/desktop/#!/) service name | owner | purpose | status | route |
+| Media Guide | Location | Type |
+|---|---|---|
+| [Gus media guide](../media/gus/README.md) | Movies, TV Shows, Music | [cfPlex - gus]() |
+| [CAT media guide](../media/cat/README.md) | Movies, TV Shows, Music | [cfPlex - cat]() | 
+| [cfPlex Live TV guide]() | Live TV | [cfPlex - LiveTV]() | 
+
+## tv.2cld Services
+
+|[plex.tv](https://app.plex.tv/desktop/#!/) service name | owner | purpose | status | route |
 |---|---|---|---|--|
 | [cfPlex](http://test.christrees.com:32400/) | christrees | [Plex](https://netstack.org/docs/portals/plex) on cfPlex [docs](https://cf.2cld.net/docs) win11 i5 | live in cf | cf->32400->6.3 [doc cfPlex](https://netstack.org/docs/portals/plex#cfPlex) |
 | [cfDVR](http://test.christrees.com:32500/) | christrees | [Plex](https://netstack.org/docs/portals/plex) on cfDVR [docs](https://cf.2cld.net/docs) Synology ds411 | live in cf | cf->32500->6.6 [doc cfDVR](https://netstack.org/docs/portals/plex#cfDVR) |
