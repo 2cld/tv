@@ -4,8 +4,8 @@
 
 | Media Guide | Location | Type |
 |---|---|---|
-| [Gus media guide](../media/gus/README.md) | Movies, TV Shows, Music | [cfPlex - gus]() |
-| [CAT media guide](../media/cat/README.md) | Movies, TV Shows, Music | [cfPlex - cat]() | 
+| [Gus media guide](../media/gus) | Movies, TV Shows, Music | [cfPlex - gus]() |
+| [CAT media guide](../media/cat) | Movies, TV Shows, Music | [cfPlex - cat]() | 
 | [cfPlex Live TV guide]() | Live TV | [cfPlex - LiveTV]() | 
 
 ## tv.2cld Services
