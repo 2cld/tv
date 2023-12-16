@@ -13,7 +13,7 @@
 |[plex.tv](https://app.plex.tv/desktop/#!/) service name | owner | purpose | status | route |
 |---|---|---|---|--|
 | [cfPlex](http://test.christrees.com:32400/) | christrees | [Plex](https://netstack.org/docs/portals/plex) on cfPlex [docs](https://cf.2cld.net/docs) win11 i5 | live in cf | cf->32400->6.3 [doc cfPlex](https://netstack.org/docs/portals/plex#cfPlex) |
-| [cfDVR](http://test.christrees.com:32500/) | christrees | [Plex](https://netstack.org/docs/portals/plex) on cfDVR [docs](https://cf.2cld.net/docs) Synology ds411 | live in cf | cf->32500->6.6 [doc cfDVR](https://netstack.org/docs/portals/plex#cfDVR) |
+| [cfDVR](http://test.christrees.com:32500/) | trink | [Plex](https://netstack.org/docs/portals/plex) on cfDVR [docs](https://cf.2cld.net/docs) Synology ds411 | live in cf | cf->32500->6.6 [doc cfDVR](https://netstack.org/docs/portals/plex#cfDVR) |
 | [gusHPlex](http://24.216.208.251:32400) remove | christrees | sl local | live in sl | sl->32400->?? [doc gusHPlex](#gusHPlex) on gusHPlaptop |
 | [slPlex](http://24.216.208.251:32400) todo | christrees | [Plex](https://netstack.org/docs/portals/plex) ?? local [docs](https://cf.2cld.net/docs) | live in sl via cf | sl->32400->?? [doc slPlex](#slPlex) on ?? |
 | [test 2020](http://test.christrees.com:2020/) | christrees | cf sg-cfPlex ssh | live in cf | cf->2020->6.2:21 sg cfPlex-trinkDVR |
@@ -22,6 +22,7 @@
 | [youtube my movies](https://www.youtube.com/feed/storefront?bp=EgCSAQMIyQSiBQIoBA%3D%3D)  | christrees | cloud | live | cloud |
 
 
+need to sort cfPlex out
 
 | cfPlex Lib | local mnt | netpath |
 |-------------|------------------|---|
@@ -43,6 +44,7 @@
 |-------------|------------------|     
 | pshareMovies | /volume1/pshare/bs01Movie |
 | pshareDVR | /volume1/pshare/bs01DVR |
+| trinkDVR | /volume1/pshare/trinkDVR |
 
 # gusHPlex - REMOVE with gus
 
