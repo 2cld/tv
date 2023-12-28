@@ -15,8 +15,8 @@
 | [cfPlex](http://test.christrees.com:32400/) | christrees | [Plex](https://netstack.org/docs/portals/plex) on cfPlex [docs](https://cf.2cld.net/docs) win11 i5 | live in cf | cf->32400->6.3 [doc cfPlex](https://netstack.org/docs/portals/plex#cfPlex) |
 | [cfDVR](http://test.christrees.com:32500/) | trink | [Plex](https://netstack.org/docs/portals/plex) on cfDVR [docs](https://cf.2cld.net/docs) Synology ds411 | live in cf | cf->32500->6.6 [doc cfDVR](https://netstack.org/docs/portals/plex#cfDVR) |
 |---|---|---|---|--|
-| [slPlex](http://test.christrees.com:32400/) | christrees | [Plex](https://netstack.org/docs/portals/plex) on cfPlex [docs](https://sl.2cld.net/docs) qnap | live in sl | sl->32400->0.6 [doc cfPlex](https://netstack.org/docs/portals/plex#cfPlex) |
-| [slDVR](http://test.christrees.com:32500/) | christrees | [Plex](https://netstack.org/docs/portals/plex) on cfDVR [docs](https://sl.2cld.net/docs) slwinll | live in sl | sl->32500->0.9 [doc cfDVR](https://netstack.org/docs/portals/plex#cfDVR) |
+| [slPlex](http://24.216.208.251:32400/) | christrees | [Plex](https://netstack.org/docs/portals/plex) on cfPlex [docs](https://sl.2cld.net/docs) qnap | live in sl | sl->32400->0.6 [doc cfPlex](https://netstack.org/docs/portals/plex#cfPlex) |
+| [slDVR](http://24.216.208.251:32500/) | christrees | [Plex](https://netstack.org/docs/portals/plex) on cfDVR [docs](https://sl.2cld.net/docs) slwinll | live in sl | sl->32500->0.9 [doc cfDVR](https://netstack.org/docs/portals/plex#cfDVR) |
 |---|---|---|---|--|
 | [test 2020](http://test.christrees.com:2020/) | christrees | cf sg-cfPlex ssh | live in cf | cf->2020->6.2:21 sg cfPlex-trinkDVR |
 | [test 2021](http://test.christrees.com:2021/) | christrees | cf sg-cfDVR  ssh | live in cf | cf->2020->6.6:2020 cfDVR-trinDVR |
