@@ -69,6 +69,8 @@ need to sort cfPlex out
 | [slDVR remote](http://24.216.208.251:32500/) Lib | local mnt | netpath |
 |-------------|------------------|---|
 | gusProjects | G:/plex/gusProjects | ghadmin \\192.168.0.6\Plex\gusProjects |
+| slDVR | D:/slShareD | ghadmin \\192.168.0.9\slShareD |
+| slDVR | E:/slShareE | ghadmin \\192.168.0.9\slShareE |
 
 
 # tv WIP
