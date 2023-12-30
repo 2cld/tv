@@ -74,27 +74,13 @@ need to sort cfPlex out
 
 
 # tv WIP
-- Clean up gusHPlex with gus
-- Client help links for RoKu, Web, Portal, FireTV
+- ~~Clean up gusHPlex with gus~~
+- Client help links for RoKu, Web, Portal, FireTV bobo proof docs
 - More detailed index or links to Media Inventory
 - Direct links to watch an episode
 - Capture indexes ?
 - Capture tools and workflow
 - Edit tools and workflow
-  
-### gusHPlex - ReviewREMOVE with gus
-
-| gusHPlex Lib | Storage location |
-|-------------|------------------|     
-| gusMovies | gusHPLaptop E:\gusHPlexSFEPart\gusMovies |
-| gusShows | gusHPLaptop E:\gusHPlexSFEPart\gusShows |
-| gusHorrorClassic100 | gusHPLaptop E:\gusHPlexSFEPart\gusHorrorClassic100 |
-| gusMusic | gusHPLaptop E:\gusHPlexSFEPart\gusMusic |
-| gusVHSProject | gusHPLaptop E:\gusHPlexSFEPart\gusVHSProject |
-| gusDVR | gusHPLaptop E:\gusHPlexSFEPart\gusDVR |
-| gusDVRStoogies | gusHPLaptop E:\gusHPlexSFEPart\gusDVRStoogies |
-| gusDVRCartoons | gusHPLaptop E:\gusHPlexSFEPart\gusDVRCartoons |
-
 
 
 ### Equipment Notes
