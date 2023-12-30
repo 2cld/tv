@@ -16,14 +16,14 @@
 
 |[plex.tv](https://app.plex.tv/desktop/#!/) service name | owner | purpose | status | route |
 |---|---|---|---|--|
-| [cfPlex remote](http://test.christrees.com:32400/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [cfPlex on ghwinll local](https://192.168.) i5 GPU | live in cf | cf->32400->6.3 [doc cfPlex](https://netstack.org/docs/portals/plex#cfPlex) |
-| [cfDVR remote](http://test.christrees.com:32500/) | tri484| [Plex docs](https://netstack.org/docs/portals/plex) for [cfDVR on sg local](https://cf.2cld.net/docs) Synology ds411 | live in cf | cf->32500->6.6 [doc cfDVR](https://netstack.org/docs/portals/plex#cfDVR) |
+| [cfPlex remote](http://test.christrees.com:32400/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [cfPlex on ghwinll local](https://192.168.) i5 GPU | live in cf | cf->32400->6.3 |
+| [cfDVR remote](http://test.christrees.com:32500/) | tri484| [Plex docs](https://netstack.org/docs/portals/plex) for [cfDVR on sg local](https://cf.2cld.net/docs) Synology ds411 | live in cf | cf->32500->6.6 |
 |---|---|---|---|--|
 | [slPlex remote](http://24.216.208.251:32400/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [slPlex on sg2 local](http://192.168.0.6:32400/) 1u Dell | live in sl | sl->32400->0.6 |
 | [slDVR remote](http://24.216.208.251:32500/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [slDVR on slwin11 local](http://192.168.0.9:32400/) qnap TS-431 | live in sl | sl->32500->0.9 |
 |---|---|---|---|--|
-| [test 2020](http://test.christrees.com:2020/) | christrees | cf sg-cfPlex ssh | live in cf | cf->2020->6.2:21 sg cfPlex-trinkDVR |
-| [test 2021](http://test.christrees.com:2021/) | christrees | cf sg-cfDVR  ssh | live in cf | cf->2020->6.6:2020 cfDVR-trinDVR |
+| ~~[test 2020](http://test.christrees.com:2020/)~~ | christrees | cf old tnas ssh | old in cf | cf->2020->6.2:21 |
+| [test 2021](http://test.christrees.com:2021/) | christrees | cf sg-cfDVR  ssh | live in cf | cf->2020->6.6:2020 |
 
 
 need to sort cfPlex out
