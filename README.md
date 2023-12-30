@@ -50,14 +50,15 @@ need to sort cfPlex out
 | pshareDVR | /volume1/pshare/bs01DVR |
 | trinkDVR | /volume1/pshare/trinkDVR |
 
-# [slPlex](http://24.216.208.251:32400/) on [sg2-buadmin](http://192.168.0.6:8080/)
-
-| [slPlex](http://24.216.208.251:32400/) Lib | local mnt | netpath | 
+# [slPlex remote](http://24.216.208.251:32400/) or [slPlex on sg2 local](http://192.168.0.6:32400/) on [sg2-buadmin](http://192.168.0.6:8080/) or [slDRV Plex backup slDVR](http://192.168.0.9:32400/)
+  
+| [slPlex remote](http://24.216.208.251:32400/) Lib | local mnt | netpath | share |
 |-------------|------------------|---|
-| gusMovies | /share/CACHEDEV2_DATA/plex/gusMovies | sg2 \\192.168.0.6\Plex\gusMovies |
-| gusProjects | /share/CACHEDEV2_DATA/plex/gusProjects | sg2 \\192.168.0.6\Plex\gusMovies |
-| gusShows | /share/CACHEDEV2_DATA/plex/gusMovies | sg2 \\192.168.0.6\Plex\gusMovies |
-| gusMusic | /share/CACHEDEV2_DATA/plex/gusMusic | sg2 \\192.168.0.6\Plex\gusMovies |
+| gusHorrorClassic100 | /share/CACHEDEV2_DATA/plex/gusHorrorClassic100 | ghadmin \\192.168.0.6\Plex\gusHorrorClassic100 |
+| gusMovies | /share/CACHEDEV2_DATA/plex/gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
+| gusProjects | /share/CACHEDEV2_DATA/plex/gusProjects | ghadmin \\192.168.0.6\Plex\gusProjects |
+| gusShows | /share/CACHEDEV2_DATA/plex/gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
+| gusMusic | /share/CACHEDEV2_DATA/plex/gusMusic | ghadmin \\192.168.0.6\Plex\gusMusic |
 
 # gusHPlex - ReviewREMOVE with gus
 
