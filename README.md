@@ -50,9 +50,12 @@ need to sort cfPlex out
 | pshareDVR | /volume1/pshare/bs01DVR |
 | trinkDVR | /volume1/pshare/trinkDVR |
 
-# [slPlex remote](http://24.216.208.251:32400/) or [slPlex on sg2 local](http://192.168.0.6:32400/) on [sg2-buadmin](http://192.168.0.6:8080/) or [slDRV Plex backup slDVR](http://192.168.0.9:32400/)
+# [slPlex](http://24.216.208.251:32400/)
+- slPlex plex [local Plex server IP http://192.168.0.6:32400 on sg2](http://192.168.0.6:32400/)
+- sg2 web admin portal [sg2-buadmin](http://192.168.0.6:8080/)
+- slDVR plex [slDRV Plex backup server IP http://192.168.0.9:32400](http://192.168.0.9:32400/) Drive G: mount to ghadmin \\192.168.0.6\Plex
   
-| [slPlex remote](http://24.216.208.251:32400/) Lib | local mnt | netpath | share |
+| [slPlex remote](http://24.216.208.251:32400/) Lib | local mnt | netpath |
 |-------------|------------------|---|
 | gusHorrorClassic100 | /share/CACHEDEV2_DATA/plex/gusHorrorClassic100 | ghadmin \\192.168.0.6\Plex\gusHorrorClassic100 |
 | gusMovies | /share/CACHEDEV2_DATA/plex/gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
