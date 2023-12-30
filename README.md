@@ -66,11 +66,21 @@ need to sort cfPlex out
 # [slDVR](http://24.216.208.251:32500/)
 - slDVR plex [slDRV Plex backup server IP http://192.168.0.9:32400](http://192.168.0.9:32400/) Drive G: mount to ghadmin \\192.168.0.6\Plex
 
-| [slPlex remote](http://24.216.208.251:32500/) Lib | local mnt | netpath |
+| [slDVR remote](http://24.216.208.251:32500/) Lib | local mnt | netpath |
 |-------------|------------------|---|
-| gusProjects | /share/CACHEDEV2_DATA/plex/gusProjects | ghadmin \\192.168.0.6\Plex\gusProjects |
+| gusProjects | G:/plex/gusProjects | ghadmin \\192.168.0.6\Plex\gusProjects |
 
-# gusHPlex - ReviewREMOVE with gus
+
+# tv WIP
+- Clean up gusHPlex with gus
+- Client help links for RoKu, Web, Portal, FireTV
+- More detailed index or links to Media Inventory
+- Direct links to watch an episode
+- Capture indexes ?
+- Capture tools and workflow
+- Edit tools and workflow
+  
+### gusHPlex - ReviewREMOVE with gus
 
 | gusHPlex Lib | Storage location |
 |-------------|------------------|     
@@ -85,7 +95,7 @@ need to sort cfPlex out
 
 
 
-## Equipment Notes
+### Equipment Notes
 - [HDMI to VHF ch3-4](https://www.amazon.com/Modulator-Coaxial-Converter-Digital-Adapter/dp/B09SG62RPZ/ref=sr_1_4?hvadid=182675282387&hvdev=c&hvlocphy=9018109&hvnetw=g&hvqmt=e&hvrand=4345337346546498937&hvtargid=kwd-21678298758&hydadcr=18920_9699079&keywords=hdmi+to+coaxial+cable+adapter&qid=1702340085&sr=8-4)
 - [Wikipedia HDMI](https://en.wikipedia.org/wiki/High-bandwidth_Digital_Content_Protection)
 - [hdfury](https://hdfury.com/shop/)
