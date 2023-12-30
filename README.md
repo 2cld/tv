@@ -63,6 +63,13 @@ need to sort cfPlex out
 | gusShows | /share/CACHEDEV2_DATA/plex/gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
 | gusMusic | /share/CACHEDEV2_DATA/plex/gusMusic | ghadmin \\192.168.0.6\Plex\gusMusic |
 
+# [slDVR](http://24.216.208.251:32500/)
+- slDVR plex [slDRV Plex backup server IP http://192.168.0.9:32400](http://192.168.0.9:32400/) Drive G: mount to ghadmin \\192.168.0.6\Plex
+
+| [slPlex remote](http://24.216.208.251:32500/) Lib | local mnt | netpath |
+|-------------|------------------|---|
+| gusProjects | /share/CACHEDEV2_DATA/plex/gusProjects | ghadmin \\192.168.0.6\Plex\gusProjects |
+
 # gusHPlex - ReviewREMOVE with gus
 
 | gusHPlex Lib | Storage location |
