@@ -54,6 +54,7 @@ need to sort cfPlex out
 - slPlex plex [local Plex server IP http://192.168.0.6:32400 on sg2](http://192.168.0.6:32400/)
 - sg2 web admin portal [sg2-buadmin](http://192.168.0.6:8080/)
 - slDVR plex [slDRV Plex backup server IP http://192.168.0.9:32400](http://192.168.0.9:32400/) Drive G: mount to ghadmin \\192.168.0.6\Plex
+- having issues keeping slplex app running on qnap TS-431 NAS mapped media to slDVR plex running on slwin11
   
 | [slPlex remote](http://24.216.208.251:32400/) Lib | local mnt | netpath |
 |-------------|------------------|---|
@@ -68,7 +69,11 @@ need to sort cfPlex out
 
 | [slDVR remote](http://24.216.208.251:32500/) Lib | local mnt | netpath |
 |-------------|------------------|---|
+| gusHorrorClassic100 | G:/plex/gusHorrorClassic100 | ghadmin \\192.168.0.6\Plex\gusHorrorClassic100 |
+| gusMovies | G:/plex/gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
 | gusProjects | G:/plex/gusProjects | ghadmin \\192.168.0.6\Plex\gusProjects |
+| gusShows | G:/plex//gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
+| gusMusic | G:/plex/gusMusic | ghadmin \\192.168.0.6\Plex\gusMusic |
 | slDVR | D:/slShareD | ghadmin \\192.168.0.9\slShareD |
 | slDVR | E:/slShareE | ghadmin \\192.168.0.9\slShareE |
 
