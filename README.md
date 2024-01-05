@@ -72,6 +72,16 @@ need to sort cfPlex out
 | slDVR | D:/slShareD | ghadmin \\192.168.0.9\slShareD |
 | slDVR | E:/slShareE | ghadmin \\192.168.0.9\slShareE |
 
+# cattv [https://my.zerotier.com/](https://my.zerotier.com/)
+
+| slwin11 | 10.147.19.198 | 192.168.0.9 |
+| | D: | slDriveD D: |
+| | E: | slDriveE E: |
+| | G: | plex \\192.168.0.6 G: |
+| cfplex | 10.147.19.228 | 192.168.6.3 |
+| | O: | plensds \\192.168.6.10 O: |
+| | P: | pshare \\192.168.6.6 P: |
+| catmini | 10.147.19.59 | 192.168.6.33 |
 
 # tv WIP
 - ~~Clean up gusHPlex with gus~~
