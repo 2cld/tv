@@ -74,13 +74,15 @@ need to sort cfPlex out
 
 # cattv [https://my.zerotier.com/](https://my.zerotier.com/)
 
+| cattv device | zt-ip drive | loc-ip map |
+|-------------|------------------|---|
 | slwin11 | 10.147.19.198 | 192.168.0.9 |
-| | D: | slDriveD D: |
-| | E: | slDriveE E: |
-| | G: | plex \\192.168.0.6 G: |
+|  | D: | slDriveD D: |
+|  | E: | slDriveE E: |
+|  | G: | plex 192.168.0.6 G: |
 | cfplex | 10.147.19.228 | 192.168.6.3 |
-| | O: | plensds \\192.168.6.10 O: |
-| | P: | pshare \\192.168.6.6 P: |
+|  | O: | plensds 192.168.6.10 O: |
+|  | P: | pshare 192.168.6.6 P: |
 | catmini | 10.147.19.59 | 192.168.6.33 |
 
 # tv WIP
