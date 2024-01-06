@@ -37,6 +37,7 @@
 |  | plensds 192.168.6.10 O: |  ghadmin \\192.168.6.10\ |
 | StarTrek | O:\plexdvr\startrekDVR |  ghadmin \\192.168.6.10\plexdvr\startrekDVR |
 |  | pshare 192.168.6.6 P: |  ghadmin \\192.168.6.6\ |
+| catShows | P:\catShows |  ghadmin \\192.168.6.6\catShows |
 
 
 # [cfDVR](http://test.christrees.com:32500/)
