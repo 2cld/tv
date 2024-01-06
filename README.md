@@ -27,46 +27,31 @@
 | [test 2021](http://test.christrees.com:2021/) | christrees | cf sg-cfDVR  ssh | live in cf | cf->2020->6.6:2020 |
 
 
-need to sort cfPlex out
+# [cfPlex](http://test.christrees.com:32400/)
+- [cfPlex plex on cfPlex local https://192.168.6.3:32400/](https://192.168.6.3:32400/)
 
-| cfPlex Lib | local mnt | netpath |
+| [cfPlex](http://test.christrees.com:32400/) Lib | local mnt | netpath |
 |-------------|------------------|---|
-| catMovies | M:\CATMovies | MediaShare \\192.168.6.2\CATMovies |
-| catNewMovies | P:\catNew | pshare \\192.168.6\catNew |
-| pMediaMovie | M:\pMediaMovie | MediaShare \\192.168.6.2\pMediaMovie |
-| pMediaMoviesAnimated | M:\pMediaMoviesAnimated | MediaShare \\192.168.6.2\pMediaMoviesAnimated |
-| pMediaShortsAnimated | M:\pMediaShortsAnimated | MediaShare \\192.168.6.2\pMediaShortsAnimated |
-| catScratch | C:\plexData | none |
-| catTVShows | M:\CATTVShows | MediaShare \\192.168.6.2\CATTVShows |
-| pMediaTVShows | M:\pMediaTVShows | MediaShare \\192.168.6.2\pMediaTVShows |
-| pMediaTVShowsAnimated | M:\pMediaTVShowsAnimated | MediaShare \\192.168.6.2\pMediaTVShowsAnimated |
-| StarTrek | O:\plexdvr\startrekDVR | plexnsds \\192.168.6.10\plexdvr\startrekDVR |
-| gusTestRemote | G:\gusDVRStoogies |  gusHPlexSFEPart \\10.147.17.66\gusDVRStoogies |
-| gusTestLocal | C:\plexData\The Three Stooges (1934) | none |
+|  | slShareD 10.147.19.198 D: | ghadmin \\10.147.19.198\slShareD |
+|  | slShareE 10.147.19.198 E: | ghadmin \\10.147.19.198\slShareE |
+|  | plensds 192.168.6.10 O: |  ghadmin \\192.168.6.10\ |
+| StarTrek | O:\plexdvr\startrekDVR |  ghadmin \\192.168.6.10\plexdvr\startrekDVR |
+|  | pshare 192.168.6.6 P: |  ghadmin \\192.168.6.6\ |
 
 
-| cfDVR Lib | Storage location |
-|-------------|------------------|     
-| pshareMovies | /volume1/pshare/bs01Movie |
-| pshareDVR | /volume1/pshare/bs01DVR |
-| trinkDVR | /volume1/pshare/trinkDVR |
-
-# [slPlex](http://24.216.208.251:32400/)
-- slPlex plex [local Plex server IP http://192.168.0.6:32400 on sg2](http://192.168.0.6:32400/)
-- sg2 web admin portal [sg2-buadmin](http://192.168.0.6:8080/)
-- slDVR plex [slDRV Plex backup server IP http://192.168.0.9:32400](http://192.168.0.9:32400/) Drive G: mount to ghadmin \\192.168.0.6\Plex
-- having issues keeping slplex app running on qnap TS-431 NAS mapped media to slDVR plex running on slwin11
+# [cfDVR](http://test.christrees.com:32500/)
+- maily for trink and older stuff
+- [cfDVR plex on sg local](https://cf.2cld.net/docs) Synology ds411 
   
-| [slPlex remote](http://24.216.208.251:32400/) Lib | local mnt | netpath |
+| [cfDVR](http://test.christrees.com:32500/) Lib |  local mnt | netpath |
 |-------------|------------------|---|
-| gusHorrorClassic100 | /share/CACHEDEV2_DATA/plex/gusHorrorClassic100 | ghadmin \\192.168.0.6\Plex\gusHorrorClassic100 |
-| gusMovies | /share/CACHEDEV2_DATA/plex/gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
-| gusProjects | /share/CACHEDEV2_DATA/plex/gusProjects | ghadmin \\192.168.0.6\Plex\gusProjects |
-| gusShows | /share/CACHEDEV2_DATA/plex/gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
-| gusMusic | /share/CACHEDEV2_DATA/plex/gusMusic | ghadmin \\192.168.0.6\Plex\gusMusic |
+| pshareMovies | /volume1/pshare/bs01Movie | pshare \\192.168.6\bs01Movie |
+| pshareDVR | /volume1/pshare/bs01DVR | pshare \\192.168.6\bs01DVR |
+| trinkDVR | /volume1/pshare/trinkDVR | pshare \\192.168.6\trinkDVR |
+
 
 # [slDVR](http://24.216.208.251:32500/)
-- slDVR plex [slDRV Plex backup server IP http://192.168.0.9:32400](http://192.168.0.9:32400/) Drive G: mount to ghadmin \\192.168.0.6\Plex
+- [slDRV Plex backup server on slwin11 http://192.168.0.9:32400](http://192.168.0.9:32400/) Drive G: mount to ghadmin \\192.168.0.6\Plex
 
 | [slDVR remote](http://24.216.208.251:32500/) Lib | local mnt | netpath |
 |-------------|------------------|---|
@@ -78,7 +63,7 @@ need to sort cfPlex out
 | slDVR | D:/slShareD | ghadmin \\192.168.0.9\slShareD |
 | slDVR | E:/slShareE | ghadmin \\192.168.0.9\slShareE |
 
-# cattv [https://my.zerotier.com/](https://my.zerotier.com/)
+# cattv [ghadmin https://my.zerotier.com/](https://my.zerotier.com/)
 
 | cattv device | zt-ip drive | loc-ip map | size TB | used TB | date |
 | -------: |------------------|---|--|--|--|
@@ -98,10 +83,35 @@ need to sort cfPlex out
 - ~~Clean up gusHPlex with gus~~
 - Client help links for RoKu, Web, Portal, FireTV bobo proof docs
 - [naming-and-organizing-your-plextv-show-files](https://support.plex.tv/articles/naming-and-organizing-your-tv-show-files/)
-- More detailed index or links to Media Inventory
-- [Media Inventory - google ss](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=0)
+- Update [Media Inventory - google ss](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=0)
+  - Cross reference Plex Media Server lists with plex server lib and physical location server/path
+  - Maybe tie in view list and m8u files for reference
+  - make sheet viewable from tv.2cld.net
+  - Create wip list of things we want to put up and archieve
 - Direct links to watch an episode
+  - vlc m8u [youtube tutorial m3u playlist](https://www.youtube.com/watch?v=_NgxHmHk_ao)
+  - example vlcSilicondust_192_168_6_11.m3u
+    ```
+    #EXTM3U
+    #EXTINF:-1 tvg-id="cattuner 2.1" tvg-name="Channel 2.1" group-title="cattv | tuner",cattv channel 2.1
+    http://192.168.6.11:5004/auto/v2.1
+    #EXTINF:-1 tvg-id="cattuner 7.1" tvg-name="Channel 7.1" group-title="cattv | tuner",cattv channel 7.1
+    http://192.168.6.11:5004/auto/v7.1
+    #EXTINF:-1 tvg-id="cattuner 9.1" tvg-name="Channel 9.1" group-title="cattv | tuner",cattv channel 9.1
+    http://192.168.6.11:5004/auto/v9.1
+    #EXTINF:-1 tvg-id="cattuner 28.1" tvg-name="Channel 28.1" group-title="cattv | tuner",cattv channel 28.1
+    http://192.168.6.11:5004/auto/v28.1
+    #EXTINF:-1 tvg-id="cattuner 32.1" tvg-name="Channel 32.1" group-title="cattv | tuner",cattv channel 32.1
+    http://192.168.6.11:5004/auto/v32.1
+    #EXTINF:-1 tvg-id="cattuner 48.1" tvg-name="Channel 48.1" group-title="cattv | tuner",cattv channel 48.1
+    http://192.168.6.11:5004/auto/v48.1
+    #EXTINF:-1 tvg-id="cattuner 48.3" tvg-name="Channel 48.3" group-title="cattv | tuner",cattv channel 48.3
+    http://192.168.6.11:5004/auto/v48.3
+    #EXTINF:-1 tvg-id="cattuner 48.4" tvg-name="Channel 48.4" group-title="cattv | tuner",cattv channel 48.4
+    http://192.168.6.11:5004/auto/v48.4
+    ```
 - Capture indexes ?
+- Storage monitoring freespace, availibity, smart disk
 - [Capture tools and workflow](https://github.com/2cld/netstack/blob/master/docs/portals/streamstudio/README.md)
 - [Edit tools and workflow](https://github.com/2cld/netstack/blob/master/docs/portals/streamstudio/README.md)
 
@@ -118,3 +128,20 @@ need to sort cfPlex out
 - [Cloner Alliance 4K pro](https://www.amazon.com/ClonerAlliance-Standalone-Instantly-Recording-Commentary/dp/B08T1PT4P4/ref=sr_1_1_sspa?crid=34AUK1PFCEUYT&keywords=cloneralliance%2Buhd%2Bpro%2C%2B4k%2Bvideo%2Brecorder&qid=1702404125&s=electronics&sprefix=cloner%2Celectronics%2C145&sr=1-1-spons&ufe=app_do%3Aamzn1.fos.18630bbb-fcbb-42f8-9767-857e17e03685&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)
 - [tbd]()
 - [tbd]()
+
+# ~~[slPlex](http://24.216.208.251:32400/)~~ unstable
+- slPlex running on qnap fails.  Notes are hidden comments below.
+<!--
+- slPlex plex [local Plex server IP http://192.168.0.6:32400 on sg2](http://192.168.0.6:32400/)
+- sg2 web admin portal [sg2-buadmin](http://192.168.0.6:8080/)
+- slDVR plex [slDRV Plex backup server IP http://192.168.0.9:32400](http://192.168.0.9:32400/) Drive G: mount to ghadmin \\192.168.0.6\Plex
+- having issues keeping slplex app running on qnap TS-431 NAS mapped media to slDVR plex running on slwin11
+  
+| [slPlex remote](http://24.216.208.251:32400/) Lib | local mnt | netpath |
+|-------------|------------------|---|
+| gusHorrorClassic100 | /share/CACHEDEV2_DATA/plex/gusHorrorClassic100 | ghadmin \\192.168.0.6\Plex\gusHorrorClassic100 |
+| gusMovies | /share/CACHEDEV2_DATA/plex/gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
+| gusProjects | /share/CACHEDEV2_DATA/plex/gusProjects | ghadmin \\192.168.0.6\Plex\gusProjects |
+| gusShows | /share/CACHEDEV2_DATA/plex/gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
+| gusMusic | /share/CACHEDEV2_DATA/plex/gusMusic | ghadmin \\192.168.0.6\Plex\gusMusic |
+-->
