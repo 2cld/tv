@@ -13,10 +13,11 @@
 | [Cedar Falls Library Login](https://wcfpl.ent.sirsi.net/client/en_US/cfpl/?) | public Library | christrees |
 
 ## tv.2cld Services
+- [naming-and-organizing-your-plextv-show-files](https://support.plex.tv/articles/naming-and-organizing-your-tv-show-files/)
 
 |[plex.tv](https://app.plex.tv/desktop/#!/) service name | owner | purpose | status | route |
 |---|---|---|---|--|
-| [cfPlex remote](http://test.christrees.com:32400/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [cfPlex on ghwinll local](https://192.168.) i5 GPU | live in cf | cf->32400->6.3 |
+| ~~[cfPlex remote](http://test.christrees.com:32400/)~~ not stable | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [cfPlex on ghwinll local](https://192.168.) i5 GPU | live in cf | cf->32400->6.3 |
 | [cfDVR remote](http://test.christrees.com:32500/) | tri484| [Plex docs](https://netstack.org/docs/portals/plex) for [cfDVR on sg local](https://cf.2cld.net/docs) Synology ds411 | live in cf | cf->32500->6.6 |
 |---|---|---|---|--|
 | [slPlex remote](http://24.216.208.251:32400/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [slPlex on sg2 local](http://192.168.0.6:32400/) 1u Dell | live in sl | sl->32400->0.6 |
@@ -93,11 +94,13 @@ need to sort cfPlex out
 # tv WIP
 - ~~Clean up gusHPlex with gus~~
 - Client help links for RoKu, Web, Portal, FireTV bobo proof docs
+- [naming-and-organizing-your-plextv-show-files](https://support.plex.tv/articles/naming-and-organizing-your-tv-show-files/)
 - More detailed index or links to Media Inventory
+- [Media Inventory - google ss](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=0)
 - Direct links to watch an episode
 - Capture indexes ?
-- Capture tools and workflow
-- Edit tools and workflow
+- [Capture tools and workflow](https://github.com/2cld/netstack/blob/master/docs/portals/streamstudio/README.md)
+- [Edit tools and workflow](https://github.com/2cld/netstack/blob/master/docs/portals/streamstudio/README.md)
 
 
 ### Equipment Notes
