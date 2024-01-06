@@ -81,13 +81,13 @@ need to sort cfPlex out
 # cattv [https://my.zerotier.com/](https://my.zerotier.com/)
 
 | cattv device | zt-ip drive | loc-ip map | size TB | used TB | date |
-|-------------|------------------|---|--|--|--|
+| -------: |------------------|---|--|--|--|
 | slwin11 [slDVR remote](http://24.216.208.251:32500/) | 10.147.19.198 | 192.168.0.9 | 9.2 | 0.8 |
 |  | C: | slDVR C: | 0.25 | 0.05 | 2024.01.06 |
 |  | D: | slDriveD D: | 1.81 | 0.19 | 2024.01.06 |
 |  | E: | slDriveE E: | 1.81 | 0.04 | 2024.01.06 |
 | sg2 map | G: | plex 192.168.0.6 G: | 5.33 | 0.47 | 2024.01.06 |
-| cfplex [cfPlex remote](http://test.christrees.com:32400/) | 10.147.19.228 | 192.168.6.3 | 16.x | 9.x |
+| cfplex   [cfPlex remote](http://test.christrees.com:32400/) | 10.147.19.228 | 192.168.6.3 | 16.x | 9.x |
 |  | C: | cfPlex C: | 0.93 | 0.16 | 2024.01.06 |
 | slwin11 map | D: | slDriveD 10.147.19.198 D: | 1.81 | 0.19 | 2024.01.06 |
 | slwin11 map | E: | slDriveE 10.147.19.198 E: | 1.81 | 0.04 | 2024.01.06 |
