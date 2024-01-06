@@ -45,9 +45,9 @@
   
 | [cfDVR](http://test.christrees.com:32500/) Lib |  local mnt | netpath |
 |-------------|------------------|---|
-| pshareMovies | /volume1/pshare/bs01Movie | pshare \\192.168.6\bs01Movie |
-| pshareDVR | /volume1/pshare/bs01DVR | pshare \\192.168.6\bs01DVR |
-| trinkDVR | /volume1/pshare/trinkDVR | pshare \\192.168.6\trinkDVR |
+| pshareMovies | /volume1/pshare/bs01Movie | ghadmin \\192.168.6\bs01Movie |
+| pshareDVR | /volume1/pshare/bs01DVR | ghadmin \\192.168.6\bs01DVR |
+| trinkDVR | /volume1/pshare/trinkDVR | ghadmin \\192.168.6\trinkDVR |
 
 
 # [slDVR](http://24.216.208.251:32500/)
