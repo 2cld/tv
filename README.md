@@ -17,14 +17,14 @@
 
 |[plex.tv](https://app.plex.tv/desktop/#!/) service name | owner | purpose | status | route |
 |---|---|---|---|--|
-| [cfPlex remote](http://test.christrees.com:32400/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [cfPlex on ghwinll local](https://192.168.) i5 GPU | live in cf | cf->32400->6.3 |
-| [cfDVR remote](http://test.christrees.com:32500/) | tri484| [Plex docs](https://netstack.org/docs/portals/plex) for [cfDVR on sg local](https://cf.2cld.net/docs) Synology ds411 | live in cf | cf->32500->6.6 |
+| [cfPlex remote](http://test.christrees.com:32400/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [cfPlex local on cfPlex](https://192.168.6.3:32400) win11 i5 GPU | live in cf | cf->32400->6.3 |
+| [cfDVR remote](http://test.christrees.com:32500/) | tri484| [Plex docs](https://netstack.org/docs/portals/plex) for [cfDVR on cfDVR local](https://192.168.6.6:32400) Synology ds-411 | live in cf | cf->32500->6.6 |
 |---|---|---|---|--|
-| ~~[slPlex remote](http://24.216.208.251:32400/)~~ not stable | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [slPlex on sg2 local](http://192.168.0.6:32400/) 1u Dell | live in sl | sl->32400->0.6 |
-| [slDVR remote](http://24.216.208.251:32500/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [slDVR on slwin11 local](http://192.168.0.9:32400/) qnap TS-431 | live in sl | sl->32500->0.9 |
+| ~~[slPlex remote](http://24.216.208.251:32400/)~~ not stable | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [slPlex on sg2 local](http://192.168.0.6:32400/) qnap TS-431 | live in sl | sl->32400->0.6 |
+| [slDVR remote](http://24.216.208.251:32500/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [slDVR on slwin11 local](http://192.168.0.9:32400/) 1u Dell | live in sl | sl->32500->0.9 |
 |---|---|---|---|--|
 | ~~[test 2020](http://test.christrees.com:2020/)~~ | christrees | cf old tnas ssh | old in cf | cf->2020->6.2:21 |
-| [test 2021](http://test.christrees.com:2021/) | christrees | cf sg-cfDVR  ssh | live in cf | cf->2020->6.6:2020 |
+| [test 2021](http://test.christrees.com:2021/) | christrees | cfDVR  ssh | live in cf | cf->2020->6.6:2020 |
 
 
 # [cfPlex](http://test.christrees.com:32400/)
@@ -82,9 +82,20 @@
 
 # tv WIP
 - ~~Clean up gusHPlex with gus~~
+- Remove slPlex server from slsg2
+  - remove from christrees plex servers
+  - clear client caches via christrees plex servers
+  - remove application from slsg2
 - Client help links for RoKu, Web, Portal, FireTV bobo proof docs
+  - test local client ghusadmin for media and livetv / dvr
+  - test plex cloud client steve edwards for media and livetv
+  - reset and test portial clients
+  - create booboo, corbin and madison clients (local only??)
+  - create booboo, corbin and madison plex libraries
+  - test remote watch-with-me setups for plex, portals and web 
 - [naming-and-organizing-your-plextv-show-files](https://support.plex.tv/articles/naming-and-organizing-your-tv-show-files/)
 - Update [Media Inventory - google ss](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=0)
+  - Keep cleaningup catrips and catnew put into plex lib
   - Cross reference Plex Media Server lists with plex server lib and physical location server/path
   - Maybe tie in view list and m8u files for reference
   - make sheet viewable from tv.2cld.net
