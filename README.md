@@ -20,7 +20,7 @@
 | [cfPlex remote](http://test.christrees.com:32400/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [cfPlex local on cfPlex](https://192.168.6.3:32400) win11 i5 GPU | live in cf | cf->32400->6.3 |
 | [cfDVR remote](http://test.christrees.com:32500/) | tri484| [Plex docs](https://netstack.org/docs/portals/plex) for [cfDVR on cfDVR local](https://192.168.6.6:32400) Synology ds-411 | live in cf | cf->32500->6.6 |
 |---|---|---|---|--|
-| ~~[slPlex remote](http://24.216.208.251:32400/)~~ not stable | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [slPlex on sg2 local](http://192.168.0.6:32400/) qnap TS-431 | live in sl | sl->32400->0.6 |
+| ~~[slPlex remote](http://24.216.208.251:32400/)~~ not stable | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [slPlex on slsg2 local](http://192.168.0.6:32400/) qnap TS-431 | live in sl | sl->32400->0.6 |
 | [slDVR remote](http://24.216.208.251:32500/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [slDVR on slwin11 local](http://192.168.0.9:32400/) 1u Dell | live in sl | sl->32500->0.9 |
 |---|---|---|---|--|
 | ~~[test 2020](http://test.christrees.com:2020/)~~ | christrees | cf old tnas ssh | old in cf | cf->2020->6.2:21 |
@@ -72,7 +72,7 @@
 |  | C: | slDVR C: | 0.25 | 0.05 | 2024.01.06 |
 |  | D: | slDriveD D: | 1.81 | 0.19 | 2024.01.06 |
 |  | E: | slDriveE E: | 1.81 | 0.04 | 2024.01.06 |
-| sg2 map | G: | plex 192.168.0.6 G: | 5.33 | 0.47 | 2024.01.06 |
+| slsg2 map | G: | plex 192.168.0.6 G: | 5.33 | 0.47 | 2024.01.06 |
 | cfplex ---> plex [cfPlex remote](http://test.christrees.com:32400/) | 10.147.19.228 | 192.168.6.3 | 16.x | 9.x |
 |  | C: | cfPlex C: | 0.93 | 0.16 | 2024.01.06 |
 | slwin11 map | D: | slDriveD 10.147.19.198 D: | 1.81 | 0.19 | 2024.01.06 |
