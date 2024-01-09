@@ -83,9 +83,9 @@
 # tv WIP
 - ~~Clean up gusHPlex with gus~~
 - Remove slPlex server from slsg2
-  - remove from christrees plex servers
+  - ~~remove from christrees plex servers~~
   - clear client caches via christrees plex servers
-  - remove application from slsg2
+  - ~~remove application from slsg2~~ [nuke-plex-on-qnap netstack/docs/lan/storage/qnap](https://netstack.org/docs/lan/storage/qnap/#nuke-plex-on-qnap)
 - Client help links for RoKu, Web, Portal, FireTV bobo proof docs
   - test local client ghusadmin for media and livetv / dvr
   - test plex cloud client steve edwards for media and livetv
