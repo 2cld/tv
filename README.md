@@ -31,6 +31,7 @@
 - [cfPlex plex on cfPlex local https://192.168.6.3:32400/](https://192.168.6.3:32400/) win11 i7-3820 16GB ghadmin cfPlex-cf603 cfPlex-zt228
 
 | [cfPlex](http://test.christrees.com:32400/) Libs | local mnt | netpath |
+|-------------|------------------|---|
 | catDVR | C:\catDVR |  local |
 | catShows | P:\catShows |  ghadmin \\192.168.6.6\catShows |
 | StarTrek | O:\plexdvr\startrekDVR |  ghadmin \\192.168.6.10\plexdvr\startrekDVR |
