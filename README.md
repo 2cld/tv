@@ -28,16 +28,18 @@
 
 
 # [cfPlex](http://test.christrees.com:32400/)
-- [cfPlex plex on cfPlex local https://192.168.6.3:32400/](https://192.168.6.3:32400/)
+- [cfPlex plex on cfPlex local https://192.168.6.3:32400/](https://192.168.6.3:32400/) win11 i7-3820 16GB ghadmin cfPlex-cf603 cfPlex-zt228
 
-| [cfPlex](http://test.christrees.com:32400/) Lib | local mnt | netpath |
+| [cfPlex](http://test.christrees.com:32400/) Libs | local mnt | netpath |
+| catDVR | C:\catDVR |  local |
+| catShows | P:\catShows |  ghadmin \\192.168.6.6\catShows |
+| StarTrek | O:\plexdvr\startrekDVR |  ghadmin \\192.168.6.10\plexdvr\startrekDVR |
 |-------------|------------------|---|
+|  | cfPlex C: | local |
 |  | slShareD 10.147.19.198 D: | ghadmin \\10.147.19.198\slShareD |
 |  | slShareE 10.147.19.198 E: | ghadmin \\10.147.19.198\slShareE |
 |  | plensds 192.168.6.10 O: |  ghadmin \\192.168.6.10\ |
-| StarTrek | O:\plexdvr\startrekDVR |  ghadmin \\192.168.6.10\plexdvr\startrekDVR |
 |  | pshare 192.168.6.6 P: |  ghadmin \\192.168.6.6\ |
-| catShows | P:\catShows |  ghadmin \\192.168.6.6\catShows |
 
 
 # [cfDVR](http://test.christrees.com:32500/)
@@ -53,18 +55,24 @@
 
 # [slDVR](http://24.216.208.251:32500/)
 - [slDRV Plex backup server on slwin11 http://192.168.0.9:32400](http://192.168.0.9:32400/) Drive G: mount to ghadmin \\192.168.0.6\Plex
+- win11 Xeon-E5462 32GB ghamdin slwin11-zt17.198
 
 | [slDVR remote](http://24.216.208.251:32500/) Lib | local mnt | netpath |
 |-------------|------------------|---|
-| gusHorrorClassic100 | G:/plex/gusHorrorClassic100 | ghadmin \\192.168.0.6\Plex\gusHorrorClassic100 |
-| gusMovies | G:/plex/gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
-| gusProjects | G:/plex/gusProjects | ghadmin \\192.168.0.6\Plex\gusProjects |
-| gusShows | G:/plex//gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
-| gusMusic | G:/plex/gusMusic | ghadmin \\192.168.0.6\Plex\gusMusic |
-| slDVR | D:/slShareD | ghadmin \\192.168.0.9\slShareD |
-| slDVR | E:/slShareE | ghadmin \\192.168.0.9\slShareE |
+| gusHorrorClassic100 | G:\gusHorrorClassic100 | ghadmin \\192.168.0.6\Plex\gusHorrorClassic100 |
+| gusMovies | G:\gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
+| gusProjects | G:\gusProjects | ghadmin \\192.168.0.6\Plex\gusProjects |
+| gusShows | G:\gusMovies | ghadmin \\192.168.0.6\Plex\gusMovies |
+| gusMusic | G:\gusMusic | ghadmin \\192.168.0.6\Plex\gusMusic |
+| slDVR | D:\slShareD | D:\slShareD |
+| slDVR | E:\slShareE | E:\slShareE |
+|-------------|------------------|---|
+|  | slDVR C: | local |
+|  | slShareD D: | local |
+|  | slShareE E: | local |
+|  | plex 192.168.0.6 G: |  ghadmin \\192.168.0.6\ |
 
-# cattv [ghadmin https://my.zerotier.com/](https://my.zerotier.com/)
+# cattv Netowrk [ghadmin https://my.zerotier.com/](https://my.zerotier.com/)
 
 | cattv device | zt-ip drive | loc-ip map | size TB | used TB | date |
 | -------: |------------------|---|--|--|--|
