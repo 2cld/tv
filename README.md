@@ -1,5 +1,9 @@
 [edit](https://github.com/2cld/tv/edit/main/README.md)
 
+- [VHS Inventory Pictures](https://photos.app.goo.gl/a2mj4dqQTxGuZgBZ6)
+- [VHS Inventory Google Sheet - Shared Google Sheet - Media Inventory](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=0)
+
+
 ## tv.2cld Media Guides
 
 | Media Guide | Location | Type |
