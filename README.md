@@ -137,8 +137,10 @@
     ```
 - Capture indexes ?
 - Storage monitoring freespace, availibity, smart disk
-- [Capture tools and workflow](https://github.com/2cld/netstack/blob/master/docs/portals/streamstudio/README.md)
-- [Edit tools and workflow](https://github.com/2cld/netstack/blob/master/docs/portals/streamstudio/README.md)
+- [DVD to Plex docs on netstack](https://netstack.org/docs/portals/plex/#dvd-to-plex)
+- [cfPlex DVR on netstack](https://netstack.org/docs/portals/plex/#cPlex)
+- [Capture tools and workflow - github](https://github.com/2cld/netstack/blob/master/docs/portals/streamstudio/README.md)
+- [Edit tools and workflow - github](https://github.com/2cld/netstack/blob/master/docs/portals/streamstudio/README.md)
 
 
 ### Equipment Notes
