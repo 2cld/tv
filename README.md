@@ -15,6 +15,7 @@
 | [moviesanywhere my movies](https://moviesanywhere.com/login) | cloud movies | christrees |
 | [youtube my movies](https://www.youtube.com/feed/storefront?bp=EgCSAQMIyQSiBQIoBA%3D%3D)  | cloud movies | christrees |
 | [Cedar Falls Library Login](https://wcfpl.ent.sirsi.net/client/en_US/cfpl/?) | public Library | christrees |
+| [Cedar Falls Library Login](https://cedarfalls.aspendiscovery.org/MyAccount/Home) | public Lib login 2 | |
 
 ## tv.2cld Services
 - [naming-and-organizing-your-plextv-show-files](https://support.plex.tv/articles/naming-and-organizing-your-tv-show-files/)
