@@ -39,13 +39,30 @@
 |-------------|------------------|---|
 | catDVR | C:\catDVR |  local |
 | catShows | P:\catShows |  ghadmin \\192.168.6.6\catShows |
+| catMovies | P:\catMovies |  ghadmin \\192.168.6.6\catMovies |
 | StarTrek | O:\plexdvr\startrekDVR |  ghadmin \\192.168.6.10\plexdvr\startrekDVR |
 |-------------|------------------|---|
-|  | cfPlex C: | local |
-|  | slShareD 10.147.19.198 D: | ghadmin \\10.147.19.198\slShareD |
-|  | slShareE 10.147.19.198 E: | ghadmin \\10.147.19.198\slShareE |
+| cfplex | cfPlex C: | local |
+| slwin11 | slShareD 10.147.19.198 D: | ghadmin \\10.147.19.198\slShareD |
+| slwin11 | slShareE 10.147.19.198 E: | ghadmin \\10.147.19.198\slShareE |
 |  | plensds 192.168.6.10 O: |  ghadmin \\192.168.6.10\ |
 |  | pshare 192.168.6.6 P: |  ghadmin \\192.168.6.6\ |
+|-------------|------------------|---|
+|- Shared by -|- cfPlex Dir -|- Plex folder -|
+| cfDVR | P:\bs01DVR | pshareDVR |
+| cfDVR | P:\bs01Movie | pshareMovies |
+|  | P:\CAT_MPictures | bu chris pictures |
+|  | P:\CAT_Music | bu chris music  |
+| cfPlex | P:\catMovies | catMovies  |
+|  | P:\catNew | cleaning up |
+|  | P:\catRip | rips from mkv |
+| cfPlex | P:\catShows | catShows |
+|  | P:\gusMovies | bu gus |
+|  | P:\gusMusic | bu gus |
+|  | P:\gusShows | bu gus |
+|  | P:\Music | bu gus |
+|  | P:\test |  |
+| cfDVR | P:\trinkDVR | trinkDVR |
 
 
 # [cfDVR](http://test.christrees.com:32500/)
