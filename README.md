@@ -31,6 +31,14 @@
 | ~~[test 2020](http://test.christrees.com:2020/)~~ | christrees | cf old tnas ssh | old in cf | cf->2020->6.2:21 |
 | [test 2021](http://test.christrees.com:2021/) | christrees | cfDVR  ssh | live in cf | cf->2020->6.6:2020 |
 
+---
+
+- [tv.2cld.net](https://tv.2cld.net/)
+- [cf.2cld.net/docs](https://cf.2cld.net/docs)
+- [sl.2cld.net/docs](https://sl.2cld.net/docs)
+- [netstack.org/docs](https://netstack.org/docs/)
+
+---
 
 # [cfPlex](http://test.christrees.com:32400/)
 - [cfPlex plex on cfPlex local https://192.168.6.3:32400/](https://192.168.6.3:32400/) win11 i7-3820 16GB ghadmin cfPlex-cf603 cfPlex-zt228
