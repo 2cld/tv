@@ -39,6 +39,17 @@
 - [netstack.org/docs](https://netstack.org/docs/)
 
 ---
+# [cfTV](http://test.christrees.com:32600/) testing plex server
+- [cfTV plex on CyberTruck local https://192.168.6.30:32600/](https://192.168.6.30:32600/) win11 i7-3820 16GB ghadmin CyberTruck-cf630 CyberTruck-zt198
+
+| [cfTV](http://test.christrees.com:32600/) Plex lib | local mnt | netpath |
+|-------------|------------------|---|
+| cfTVMovies | pshare P:\cfTVMovies |  ghadmin \\192.168.6.6\cfTVMovies |
+
+| [cfTV](http://test.christrees.com:32600/) local | local mnt | netpath |
+|-------------|------------------|---|
+| CyberTruck | CyberTruck C: | local |
+| pshare | pshare P:\cfTVMovies |  ghadmin \\192.168.6.6\cfTVMovies |
 
 # [cfPlex](http://test.christrees.com:32400/)
 - [cfPlex plex on cfPlex local https://192.168.6.3:32400/](https://192.168.6.3:32400/) win11 i7-3820 16GB ghadmin cfPlex-cf603 cfPlex-zt228
