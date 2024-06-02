@@ -44,7 +44,8 @@
 
 | [cfTV](http://test.christrees.com:32600/) Plex lib | local mnt | netpath |
 |-------------|------------------|---|
-| cfTVMovies | pshare P:\cfTVMovies |  ghadmin \\192.168.6.6\cfTVMovies |
+| cfTV-DVR | CyberTruck C:\cfTV-DVR |  none |
+| cfTV-Test | pshare P:\cfTV-Test |  buadmin \\192.168.6.6\cfTV-Test |
 
 | [cfTV](http://test.christrees.com:32600/) local | local mnt | netpath |
 |-------------|------------------|---|
