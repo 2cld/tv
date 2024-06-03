@@ -50,7 +50,7 @@
 | [cfTV](http://test.christrees.com:32600/) local | local mnt | netpath |
 |-------------|------------------|---|
 | CyberTruck | CyberTruck C: | local |
-| pshare | pshare P:\cfTVMovies |  ghadmin \\192.168.6.6\cfTVMovies |
+| pshare | pshare P:\cfTV-Test |  ghadmin \\192.168.6.6\cfTV-Test |
 
 # [cfPlex](http://test.christrees.com:32400/)
 - [cfPlex plex on cfPlex local https://192.168.6.3:32400/](https://192.168.6.3:32400/) win11 i7-3820 16GB ghadmin cfPlex-cf603 cfPlex-zt228
