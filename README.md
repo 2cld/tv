@@ -1,8 +1,23 @@
 [edit](https://github.com/2cld/tv/edit/main/README.md)
 
-- [VHS Inventory Pictures](https://photos.app.goo.gl/a2mj4dqQTxGuZgBZ6)
-- [VHS Inventory Google Sheet - Shared Google Sheet - Media Inventory](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=0)
+## tv.2cld Plex 
+172.17.0.3 : 32400  Public 192.111.21.62 : 0 
 
+| [plex.tv](https://app.plex.tv/desktop/#!/) service | plex-owner | purpose | status | route |
+|---|---|---|---|--|
+| [sl-0-9-slDVR](http://192.168.0.9:32400/) | christrees | [docs](https://netstack.org/docs/portals/plex) for [slDVR on slwin11 local](https://192.168.6.67:32400) win11 Dell 1U | live in sl | sl->24.216.218.112:32500->0.9 |
+|---|---|---|---|--|
+| [cf-6-30-cfTV](http://192.168.6.30:32400/) | christrees | [docs](https://netstack.org/docs/portals/plex) for [cfDVR on CyberTruck local](https://192.168.6.67:32400) win10 i7 CyberTruck | live in cf | cf->32500->6.30 |
+| [cf-9-33-cfPlex](http://192.168.9.33:32400/) | christrees | [docs](https://netstack.org/docs/portals/plex) for [cfPlex local on cfPlex](https://192.168.9.33:32400) win11 i5 proxmox drive passthroug | live in cf | cf->cf2->32400->9.33 |
+| [cf-6-67-cfDVR](http://192.168.6.67:32400/) | christrees| [docs](https://netstack.org/docs/portals/plex) for [cfDVR on cfDVR local](https://192.168.6.67:32400) Synology ds-411 | live in cf | cf->32500->6.6 |
+|-old-|---|---|---|--|
+| ~~[cf-6-67-cfDVR](http://192.168.6.67:32400/)~~ | tri484| [docs](https://netstack.org/docs/portals/plex) for [cfDVR on cfDVR local](https://192.168.6.67:32400) Synology ds-411 | live in cf | cf->32500->6.6 |
+| ~~[cf-6-67-cfDVR](http://192.168.6.67:32400/)~~ | christrees| [docs](https://netstack.org/docs/portals/plex) for [cfDVR on cfDVR local](https://192.168.6.67:32400) Synology ds-411 | live in cf | cf->32500->6.6 |
+| ~~[slPlex remote](http://24.216.208.251:32400/)~~ not stable | christrees | [docs](https://netstack.org/docs/portals/plex) for [slPlex on slsg2 local](http://192.168.0.6:32400/) qnap TS-431 | live in sl | sl->32400->0.6 |
+| ~~[slDVR remote](http://24.216.208.251:32500/)~~ | christrees | [docs](https://netstack.org/docs/portals/plex) for [slDVR on slwin11 local](http://192.168.0.9:32400/) 1u Dell | live in sl | sl->32500->0.9 |
+|---|---|---|---|--|
+| ~~[test 2020](http://test.christrees.com:2020/)~~ | christrees | cf old tnas ssh | old in cf | cf->2020->6.2:21 |
+| ~~[test 2021](http://test.christrees.com:2021/)~~ | christrees | cfDVR  ssh | live in cf | cf->2020->6.6:2020 |
 
 ## tv.2cld Media Guides
 
@@ -21,27 +36,19 @@
 | [gutenberg.org](https://www.gutenberg.org/) | open Lib | |
 | [openlibrary.org](https://openlibrary.org/) | open Lib | |
 
-
-## tv.2cld Services
-- [naming-and-organizing-your-plextv-show-files](https://support.plex.tv/articles/naming-and-organizing-your-tv-show-files/)
-
-|[plex.tv](https://app.plex.tv/desktop/#!/) service name | owner | purpose | status | route |
-|---|---|---|---|--|
-| [cfPlex remote](http://test.christrees.com:32400/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [cfPlex local on cfPlex](https://192.168.6.3:32400) win11 i5 GPU | live in cf | cf->32400->6.3 |
-| [cfDVR remote](http://test.christrees.com:32500/) | tri484| [Plex docs](https://netstack.org/docs/portals/plex) for [cfDVR on cfDVR local](https://192.168.6.6:32400) Synology ds-411 | live in cf | cf->32500->6.6 |
-|---|---|---|---|--|
-| ~~[slPlex remote](http://24.216.208.251:32400/)~~ not stable | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [slPlex on slsg2 local](http://192.168.0.6:32400/) qnap TS-431 | live in sl | sl->32400->0.6 |
-| [slDVR remote](http://24.216.208.251:32500/) | christrees | [Plex docs](https://netstack.org/docs/portals/plex) for [slDVR on slwin11 local](http://192.168.0.9:32400/) 1u Dell | live in sl | sl->32500->0.9 |
-|---|---|---|---|--|
-| ~~[test 2020](http://test.christrees.com:2020/)~~ | christrees | cf old tnas ssh | old in cf | cf->2020->6.2:21 |
-| [test 2021](http://test.christrees.com:2021/) | christrees | cfDVR  ssh | live in cf | cf->2020->6.6:2020 |
-
 ---
 
+### tv services notes
+- [naming-and-organizing-your-plextv-show-files](https://support.plex.tv/articles/naming-and-organizing-your-tv-show-files/)
 - [tv.2cld.net](https://tv.2cld.net/)
 - [cf.2cld.net/docs](https://cf.2cld.net/docs)
 - [sl.2cld.net/docs](https://sl.2cld.net/docs)
 - [netstack.org/docs](https://netstack.org/docs/)
+
+#### VHS Archive projects
+- [VHS Inventory Pictures](https://photos.app.goo.gl/a2mj4dqQTxGuZgBZ6)
+- [VHS Inventory Google Sheet - Shared Google Sheet - Media Inventory](https://docs.google.com/spreadsheets/d/1QtCblfwwH6PWYOKnIw2m4DKLni8KrVynXM6Xslb7mGg/edit#gid=0)
+
 
 ---
 # [cfTV](http://test.christrees.com:32600/) testing plex server
