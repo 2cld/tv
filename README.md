@@ -2,6 +2,7 @@
 
 # Plex fix wip
 - sl [https://sl.2cld.net/](https://sl.2cld.net/)
+- Verify Plex storage locations below
 - HDHomeRun test (sl)
   - 8	HDHR-10802956	00-18-DD-08-02-95	[192.168.0.13](http://192.168.0.13)	Permanent
   - Test HDHomeRun app slwin11ops
