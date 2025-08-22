@@ -1,5 +1,32 @@
 [edit](https://github.com/2cld/tv/edit/main/README.md)
 
+# Plex fix wip
+- sl [https://sl.2cld.net/](https://sl.2cld.net/)
+- HDHomeRun test (sl)
+  - 8	HDHR-10802956	00-18-DD-08-02-95	[192.168.0.13](http://192.168.0.13)	Permanent
+  - Test HDHomeRun app slwin11ops
+  - Test HDHomeRun app gusHP
+  - Test HDHomeRun app gusGram (probably will not work unless we enable old wifi)
+  - Test HDHomeRun app iPhone (probably will not work unless we enable old wifi)
+  - Test HDHomeRun app RoKu (wired)
+- Plex Test (sl)
+  - 9	slwin11ops	B0-83-FE-65-80-80	192.168.0.143	01:22:13
+  - plex on port 32400	[192.168.0.143:32400](http://192.168.0.143:32400)	
+  - Test Plex app slwin11ops
+  - Test Plex app gusHP
+  - Test Plex app gusGram 
+  - Test Plex app iPhone 
+  - Test Plex app RoKu (wired and wifi)
+- Plex Test (wf)	
+  - Test Plex app catsurface 
+  - Test Plex app iPhone 
+  - Test Plex app RoKu (wifi)
+    - Channel 2.1 CBS (HD) "Playback Error" Live TV playback coud not be started
+    - Channel 7.2 H&I works and records
+  - tbd
+- tbd
+
+
 ## tv.2cld Plex 
 172.17.0.3 : 32400  Public 192.111.21.62 : 0 
 
