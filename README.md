@@ -3,6 +3,7 @@
 # test
 - [Floppy - Batman](https://sg.klopfenstein.org/?launchApp=SYNO.SDS.VideoPlayer2.Application&SynoToken=aImk6sSY9J75Y&launchParam=ieMode%3D9%26is_drive%3Dfalse%26path%3D%252Fdocker%252FcatMetube%252FThe%2520Floppy%2520Show%252FThe%2520Floppy%2520Show%2520with%2520guest%2520Adam%2520West%2520as%2520Batman%2520-%2520November%25205%25201977.webm%26file_id%3D%252Fdocker%252FcatMetube%252FThe%2520Floppy%2520Show%252FThe%2520Floppy%2520Show%2520with%2520guest%2520Adam%2520West%2520as%2520Batman%2520-%2520November%25205%25201977.webm&ieMode=9)
 - Kiss [End of the Road](https://www.youtube.com/watch?v=w-WCGUunR94)
+- Hacking fireTV [Electrical MD](https://www.youtube.com/@ElectricalMD/videos)
 - tbd
 
 # Plex fix wip
