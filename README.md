@@ -1,5 +1,11 @@
 [edit](https://github.com/2cld/tv/edit/main/README.md)
 
+- Tivo network project
+  - plug in tivo to network
+  - Go to Settings -> Account & System info -> System info -> Tivo ID??
+  -  put it on the same subnet as other Tivos
+  -  find the phone number of old owner
+    
 - [justwatch.com](https://www.justwatch.com/)
 - tbd
   
