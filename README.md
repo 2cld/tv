@@ -46,7 +46,18 @@
     - Channel 2.1 CBS (HD) "Playback Error" Live TV playback coud not be started
     - Channel 7.2 H&I works and records
   - tbd
-- tbd
+- To start Plex Media Server from the command line on Windows 11, you can use:
+```bash "C:\Program Files\Plex\Plex Media Server\Plex Media Server.exe" ```
+- Or if you want to start it without blocking your terminal:
+```bash start "" "C:\Program Files\Plex\Plex Media Server\Plex Media Server.exe" ```
+- If Plex is installed in a different location (like Program Files (x86)), adjust the path accordingly:
+```bash "C:\Program Files (x86)\Plex\Plex Media Server\Plex Media Server.exe" ```
+- You can also open the Plex web interface directly in your browser:
+```bash start http://localhost:32400/web ```
+- If you want to check if Plex is already running, you can use:
+```bash tasklist | grep -i "Plex Media Server" ```
+- Or to stop it:
+```bash taskkill /IM "Plex Media Server.exe" /F ```
 
 
 ## tv.2cld Plex 
