@@ -1,5 +1,25 @@
 [edit](https://github.com/2cld/tv/edit/main/README.md)
 
+tv.2cld.net
+
+development site for storage backend and simple frontend
+
+gus: slplex st louis area
+brad: cfplex cedar falls area
+cat: wfplex winfield area
+trink: hbplex (local only)
+steve: ??plex (where-ever)
+
+storage: Idea is have managed backup and local access
+network: Idea is to have federation
+
+Documents
+- https://netstack.org/docs/portals/plex/ repo https://github.com/2cld/netstack/master/docs/portals/plex/README.md
+
+---
+
+old stuff
+
 - Tivo network project
   - plug in tivo to network
   - Go to Settings -> Account & System info -> System info -> Tivo ID??
