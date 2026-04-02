@@ -4,14 +4,14 @@ tv.2cld.net
 
 development site for storage backend and simple frontend
 
-gus: slplex st louis area
-brad: cfplex cedar falls area
-cat: wfplex winfield area
-trink: hbplex (local only)
-steve: ??plex (where-ever)
+ - gus: slplex st louis area
+ - brad: cfplex cedar falls area
+ - cat: wfplex winfield area
+ - trink: hbplex (local only)
+ - steve: ??plex (where-ever he ends up)
 
-storage: Idea is have managed backup and local access
-network: Idea is to have federation
+ - storage: Idea is have managed backup and local access
+ - network: Idea is to have federation
 
 Documents
 - https://netstack.org/docs/portals/plex/ repo https://github.com/2cld/netstack/master/docs/portals/plex/README.md
