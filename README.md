@@ -5,6 +5,7 @@ tv.2cld.net
 - https://librivox.org/
 - https://github.com/alexta69/metube
 - https://github.com/henrygd/beszel
+- besze [youtube](https://www.youtube.com/watch?v=O_9wT-5LoHM)
 - tbd
 - Jellyfin [youtube](https://www.youtube.com/watch?v=LV3mcfqNgcQ) - [docs](https://thomaswildetech.com/blog/2025/10/30/jellyfin---setting-up-the-entire-stack/)
 - tbd
