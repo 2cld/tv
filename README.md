@@ -5,6 +5,8 @@ tv.2cld.net
 - https://librivox.org/
 - https://github.com/alexta69/metube
 - tbd
+- Jellyfin [youtube](https://www.youtube.com/watch?v=LV3mcfqNgcQ) - [docs](https://thomaswildetech.com/blog/2025/10/30/jellyfin---setting-up-the-entire-stack/)
+- tbd
 
 development site for storage backend and simple frontend
 
